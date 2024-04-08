@@ -60,6 +60,7 @@
             this.txt_LugarDeCalibracionMedicion = new System.Windows.Forms.TextBox();
             this.lbl_MensageObservacionesGenerales = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btn_Siguiente_OI = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_NodeOI
@@ -328,11 +329,21 @@
             this.textBox2.Size = new System.Drawing.Size(1415, 31);
             this.textBox2.TabIndex = 31;
             // 
+            // btn_Siguiente_OI
+            // 
+            this.btn_Siguiente_OI.Location = new System.Drawing.Point(1428, 1383);
+            this.btn_Siguiente_OI.Name = "btn_Siguiente_OI";
+            this.btn_Siguiente_OI.Size = new System.Drawing.Size(121, 67);
+            this.btn_Siguiente_OI.TabIndex = 32;
+            this.btn_Siguiente_OI.Text = "Siguiente";
+            this.btn_Siguiente_OI.UseVisualStyleBackColor = true;
+            // 
             // Orden_Interna_Anadir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1630, 1559);
+            this.Controls.Add(this.btn_Siguiente_OI);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lbl_MensageObservacionesGenerales);
             this.Controls.Add(this.txt_LugarDeCalibracionMedicion);
@@ -407,5 +418,6 @@
         private System.Windows.Forms.TextBox txt_LugarDeCalibracionMedicion;
         private System.Windows.Forms.Label lbl_MensageObservacionesGenerales;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btn_Siguiente_OI;
     }
 }

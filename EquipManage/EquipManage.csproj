@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Elementos\Orden Interna\Orden_Interna_Anadir_Tabla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Elementos\Orden Interna\Orden_Interna_Anadir_Tabla.Designer.cs">
+      <DependentUpon>Orden_Interna_Anadir_Tabla.cs</DependentUpon>
+    </Compile>
     <Compile Include="Elementos\Orden Interna\Orden_Interna_Opciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Elementos\Orden Interna\Orden_Interna_Anadir_Tabla.resx">
+      <DependentUpon>Orden_Interna_Anadir_Tabla.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Elementos\Orden Interna\Orden_Interna_Opciones.resx">
       <DependentUpon>Orden_Interna_Opciones.cs</DependentUpon>
     </EmbeddedResource>
