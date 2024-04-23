@@ -36,7 +36,7 @@
             // 
             // btn_EntregaDeEquipos
             // 
-            this.btn_EntregaDeEquipos.Location = new System.Drawing.Point(915, 314);
+            this.btn_EntregaDeEquipos.Location = new System.Drawing.Point(325, 284);
             this.btn_EntregaDeEquipos.Name = "btn_EntregaDeEquipos";
             this.btn_EntregaDeEquipos.Size = new System.Drawing.Size(338, 96);
             this.btn_EntregaDeEquipos.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // btn_OrdenInterna
             // 
-            this.btn_OrdenInterna.Location = new System.Drawing.Point(298, 314);
+            this.btn_OrdenInterna.Location = new System.Drawing.Point(805, 284);
             this.btn_OrdenInterna.Name = "btn_OrdenInterna";
             this.btn_OrdenInterna.Size = new System.Drawing.Size(264, 96);
             this.btn_OrdenInterna.TabIndex = 1;

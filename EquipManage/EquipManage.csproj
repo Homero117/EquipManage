@@ -52,12 +52,6 @@
     <Compile Include="Elementos\Orden Interna\Orden_Interna_Anadir_Tabla.Designer.cs">
       <DependentUpon>Orden_Interna_Anadir_Tabla.cs</DependentUpon>
     </Compile>
-    <Compile Include="Elementos\Orden Interna\Orden_Interna_Opciones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Elementos\Orden Interna\Orden_Interna_Opciones.Designer.cs">
-      <DependentUpon>Orden_Interna_Opciones.cs</DependentUpon>
-    </Compile>
     <Compile Include="Elementos\Orden Interna\Orden_Interna_Anadir.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,12 +70,6 @@
     <Compile Include="Elementos\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.Designer.cs">
       <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Anadir.cs</DependentUpon>
     </Compile>
-    <Compile Include="Elementos\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Opciones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Elementos\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Opciones.Designer.cs">
-      <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Opciones.cs</DependentUpon>
-    </Compile>
     <Compile Include="Seguridad\login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,9 +81,6 @@
     <EmbeddedResource Include="Elementos\Orden Interna\Orden_Interna_Anadir_Tabla.resx">
       <DependentUpon>Orden_Interna_Anadir_Tabla.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Elementos\Orden Interna\Orden_Interna_Opciones.resx">
-      <DependentUpon>Orden_Interna_Opciones.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Elementos\Orden Interna\Orden_Interna_Anadir.resx">
       <DependentUpon>Orden_Interna_Anadir.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,9 +89,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Elementos\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.resx">
       <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Anadir.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Elementos\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Opciones.resx">
-      <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Opciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seguridad\login.resx">
       <DependentUpon>login.cs</DependentUpon>

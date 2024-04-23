@@ -61,6 +61,15 @@
             this.lbl_MensageObservacionesGenerales = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btn_Siguiente_OI = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btn_Agregar_OI = new System.Windows.Forms.Button();
+            this.btn_Modificar_OI = new System.Windows.Forms.Button();
+            this.btn_Borrar_OI = new System.Windows.Forms.Button();
+            this.lbl_DiasParaLaEntrega_OI = new System.Windows.Forms.Label();
+            this.txt_DiaParaLaEntrega_OI = new System.Windows.Forms.TextBox();
+            this.btn_Anterior_OI = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_NodeOI
@@ -331,18 +340,89 @@
             // 
             // btn_Siguiente_OI
             // 
-            this.btn_Siguiente_OI.Location = new System.Drawing.Point(1428, 1383);
+            this.btn_Siguiente_OI.Location = new System.Drawing.Point(1497, 1480);
             this.btn_Siguiente_OI.Name = "btn_Siguiente_OI";
             this.btn_Siguiente_OI.Size = new System.Drawing.Size(121, 67);
             this.btn_Siguiente_OI.TabIndex = 32;
             this.btn_Siguiente_OI.Text = "Siguiente";
             this.btn_Siguiente_OI.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(70, 1147);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 82;
+            this.dataGridView1.RowTemplate.Height = 33;
+            this.dataGridView1.Size = new System.Drawing.Size(1421, 388);
+            this.dataGridView1.TabIndex = 33;
+            // 
+            // btn_Agregar_OI
+            // 
+            this.btn_Agregar_OI.Location = new System.Drawing.Point(1049, 45);
+            this.btn_Agregar_OI.Name = "btn_Agregar_OI";
+            this.btn_Agregar_OI.Size = new System.Drawing.Size(123, 52);
+            this.btn_Agregar_OI.TabIndex = 34;
+            this.btn_Agregar_OI.Text = "Agregar";
+            this.btn_Agregar_OI.UseVisualStyleBackColor = true;
+            // 
+            // btn_Modificar_OI
+            // 
+            this.btn_Modificar_OI.Location = new System.Drawing.Point(1212, 45);
+            this.btn_Modificar_OI.Name = "btn_Modificar_OI";
+            this.btn_Modificar_OI.Size = new System.Drawing.Size(123, 52);
+            this.btn_Modificar_OI.TabIndex = 35;
+            this.btn_Modificar_OI.Text = "Modificar";
+            this.btn_Modificar_OI.UseVisualStyleBackColor = true;
+            // 
+            // btn_Borrar_OI
+            // 
+            this.btn_Borrar_OI.Location = new System.Drawing.Point(1366, 45);
+            this.btn_Borrar_OI.Name = "btn_Borrar_OI";
+            this.btn_Borrar_OI.Size = new System.Drawing.Size(123, 52);
+            this.btn_Borrar_OI.TabIndex = 36;
+            this.btn_Borrar_OI.Text = "Borrar";
+            this.btn_Borrar_OI.UseVisualStyleBackColor = true;
+            // 
+            // lbl_DiasParaLaEntrega_OI
+            // 
+            this.lbl_DiasParaLaEntrega_OI.AutoSize = true;
+            this.lbl_DiasParaLaEntrega_OI.Location = new System.Drawing.Point(1000, 147);
+            this.lbl_DiasParaLaEntrega_OI.Name = "lbl_DiasParaLaEntrega_OI";
+            this.lbl_DiasParaLaEntrega_OI.Size = new System.Drawing.Size(212, 25);
+            this.lbl_DiasParaLaEntrega_OI.TabIndex = 37;
+            this.lbl_DiasParaLaEntrega_OI.Text = "Dias para la entrega:";
+            this.lbl_DiasParaLaEntrega_OI.Click += new System.EventHandler(this.label4_Click_2);
+            // 
+            // txt_DiaParaLaEntrega_OI
+            // 
+            this.txt_DiaParaLaEntrega_OI.Location = new System.Drawing.Point(1212, 147);
+            this.txt_DiaParaLaEntrega_OI.Name = "txt_DiaParaLaEntrega_OI";
+            this.txt_DiaParaLaEntrega_OI.Size = new System.Drawing.Size(188, 31);
+            this.txt_DiaParaLaEntrega_OI.TabIndex = 38;
+            this.txt_DiaParaLaEntrega_OI.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // btn_Anterior_OI
+            // 
+            this.btn_Anterior_OI.Location = new System.Drawing.Point(12, 12);
+            this.btn_Anterior_OI.Name = "btn_Anterior_OI";
+            this.btn_Anterior_OI.Size = new System.Drawing.Size(119, 34);
+            this.btn_Anterior_OI.TabIndex = 39;
+            this.btn_Anterior_OI.Text = "Anterior";
+            this.btn_Anterior_OI.UseVisualStyleBackColor = true;
+            // 
             // Orden_Interna_Anadir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1630, 1559);
+            this.Controls.Add(this.btn_Anterior_OI);
+            this.Controls.Add(this.txt_DiaParaLaEntrega_OI);
+            this.Controls.Add(this.lbl_DiasParaLaEntrega_OI);
+            this.Controls.Add(this.btn_Borrar_OI);
+            this.Controls.Add(this.btn_Modificar_OI);
+            this.Controls.Add(this.btn_Agregar_OI);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_Siguiente_OI);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lbl_MensageObservacionesGenerales);
@@ -379,6 +459,7 @@
             this.Name = "Orden_Interna_Anadir";
             this.Text = "Orden_Interna_Anadir";
             this.Load += new System.EventHandler(this.Orden_Interna_Anadir_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -419,5 +500,13 @@
         private System.Windows.Forms.Label lbl_MensageObservacionesGenerales;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button btn_Siguiente_OI;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btn_Agregar_OI;
+        private System.Windows.Forms.Button btn_Modificar_OI;
+        private System.Windows.Forms.Button btn_Borrar_OI;
+        private System.Windows.Forms.Label lbl_DiasParaLaEntrega_OI;
+        private System.Windows.Forms.TextBox txt_DiaParaLaEntrega_OI;
+        private System.Windows.Forms.Button btn_Anterior_OI;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

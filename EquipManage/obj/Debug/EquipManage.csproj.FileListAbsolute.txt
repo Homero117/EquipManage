@@ -1,0 +1,14 @@
+C:\Users\porti\source\repos\EquipManage\EquipManage\bin\Debug\EquipManage.exe.config
+C:\Users\porti\source\repos\EquipManage\EquipManage\bin\Debug\EquipManage.exe
+C:\Users\porti\source\repos\EquipManage\EquipManage\bin\Debug\EquipManage.pdb
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.csproj.AssemblyReference.cache
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.Elementos.Orden_Interna.Orden_Interna_Anadir_Tabla.resources
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.Elementos.Orden_Interna_Anadir.resources
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.Elementos.Principal.resources
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.Elementos.Recepción_Entrega_de_Equipos_ITEMS.Recepción_EntregaDeEquipos_ITEMS_Anadir.resources
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.From1.resources
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.Properties.Resources.resources
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.csproj.GenerateResource.cache
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.csproj.CoreCompileInputs.cache
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.exe
+C:\Users\porti\source\repos\EquipManage\EquipManage\obj\Debug\EquipManage.pdb

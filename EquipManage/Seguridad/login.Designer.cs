@@ -33,6 +33,7 @@
             this.txt_Contrasena = new System.Windows.Forms.TextBox();
             this.lbl_Contrasena = new System.Windows.Forms.Label();
             this.lbl_MensageDeBienvenida = new System.Windows.Forms.Label();
+            this.btn_Ingresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_Usuario
@@ -77,11 +78,21 @@
             this.lbl_MensageDeBienvenida.Text = "¡Bienvenido a EquipManage! Por favor, inicia sesión para acceder.";
             this.lbl_MensageDeBienvenida.Click += new System.EventHandler(this.label1_Click);
             // 
+            // btn_Ingresar
+            // 
+            this.btn_Ingresar.Location = new System.Drawing.Point(752, 476);
+            this.btn_Ingresar.Name = "btn_Ingresar";
+            this.btn_Ingresar.Size = new System.Drawing.Size(211, 68);
+            this.btn_Ingresar.TabIndex = 5;
+            this.btn_Ingresar.Text = "Ingresar";
+            this.btn_Ingresar.UseVisualStyleBackColor = true;
+            // 
             // From1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1647, 705);
+            this.Controls.Add(this.btn_Ingresar);
             this.Controls.Add(this.lbl_MensageDeBienvenida);
             this.Controls.Add(this.lbl_Contrasena);
             this.Controls.Add(this.txt_Contrasena);
@@ -102,6 +113,7 @@
         private System.Windows.Forms.TextBox txt_Contrasena;
         private System.Windows.Forms.Label lbl_Contrasena;
         private System.Windows.Forms.Label lbl_MensageDeBienvenida;
+        private System.Windows.Forms.Button btn_Ingresar;
     }
 }
 

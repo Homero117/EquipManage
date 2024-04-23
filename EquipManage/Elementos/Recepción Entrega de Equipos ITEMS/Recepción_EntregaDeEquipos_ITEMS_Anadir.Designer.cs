@@ -40,12 +40,15 @@
             this.lbl_Correo = new System.Windows.Forms.Label();
             this.txt_Contacto = new System.Windows.Forms.TextBox();
             this.lbl_Contacto = new System.Windows.Forms.Label();
+            this.btn_Borrar_OIT = new System.Windows.Forms.Button();
+            this.btn_Modificar_OIT = new System.Windows.Forms.Button();
+            this.btn_Agregar_OIT = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_EmpresaR
             // 
             this.lbl_EmpresaR.AutoSize = true;
-            this.lbl_EmpresaR.Location = new System.Drawing.Point(66, 92);
+            this.lbl_EmpresaR.Location = new System.Drawing.Point(66, 118);
             this.lbl_EmpresaR.Name = "lbl_EmpresaR";
             this.lbl_EmpresaR.Size = new System.Drawing.Size(103, 25);
             this.lbl_EmpresaR.TabIndex = 0;
@@ -53,7 +56,7 @@
             // 
             // txt_EmpresaR
             // 
-            this.txt_EmpresaR.Location = new System.Drawing.Point(176, 85);
+            this.txt_EmpresaR.Location = new System.Drawing.Point(176, 111);
             this.txt_EmpresaR.Name = "txt_EmpresaR";
             this.txt_EmpresaR.Size = new System.Drawing.Size(388, 31);
             this.txt_EmpresaR.TabIndex = 1;
@@ -61,7 +64,7 @@
             // lbl_Tel_Cel_R
             // 
             this.lbl_Tel_Cel_R.AutoSize = true;
-            this.lbl_Tel_Cel_R.Location = new System.Drawing.Point(71, 135);
+            this.lbl_Tel_Cel_R.Location = new System.Drawing.Point(71, 161);
             this.lbl_Tel_Cel_R.Name = "lbl_Tel_Cel_R";
             this.lbl_Tel_Cel_R.Size = new System.Drawing.Size(86, 25);
             this.lbl_Tel_Cel_R.TabIndex = 2;
@@ -69,7 +72,7 @@
             // 
             // txt_Tel_Cel_R
             // 
-            this.txt_Tel_Cel_R.Location = new System.Drawing.Point(176, 135);
+            this.txt_Tel_Cel_R.Location = new System.Drawing.Point(176, 161);
             this.txt_Tel_Cel_R.Name = "txt_Tel_Cel_R";
             this.txt_Tel_Cel_R.Size = new System.Drawing.Size(388, 31);
             this.txt_Tel_Cel_R.TabIndex = 3;
@@ -78,7 +81,7 @@
             // lbl_Fecha_R
             // 
             this.lbl_Fecha_R.AutoSize = true;
-            this.lbl_Fecha_R.Location = new System.Drawing.Point(71, 181);
+            this.lbl_Fecha_R.Location = new System.Drawing.Point(71, 207);
             this.lbl_Fecha_R.Name = "lbl_Fecha_R";
             this.lbl_Fecha_R.Size = new System.Drawing.Size(78, 25);
             this.lbl_Fecha_R.TabIndex = 4;
@@ -86,14 +89,14 @@
             // 
             // txt_Fecha_R
             // 
-            this.txt_Fecha_R.Location = new System.Drawing.Point(176, 181);
+            this.txt_Fecha_R.Location = new System.Drawing.Point(176, 207);
             this.txt_Fecha_R.Name = "txt_Fecha_R";
             this.txt_Fecha_R.Size = new System.Drawing.Size(388, 31);
             this.txt_Fecha_R.TabIndex = 5;
             // 
             // txt_Servicio
             // 
-            this.txt_Servicio.Location = new System.Drawing.Point(1032, 181);
+            this.txt_Servicio.Location = new System.Drawing.Point(1032, 207);
             this.txt_Servicio.Name = "txt_Servicio";
             this.txt_Servicio.Size = new System.Drawing.Size(388, 31);
             this.txt_Servicio.TabIndex = 11;
@@ -102,7 +105,7 @@
             // lbl_Servicio
             // 
             this.lbl_Servicio.AutoSize = true;
-            this.lbl_Servicio.Location = new System.Drawing.Point(927, 181);
+            this.lbl_Servicio.Location = new System.Drawing.Point(927, 207);
             this.lbl_Servicio.Name = "lbl_Servicio";
             this.lbl_Servicio.Size = new System.Drawing.Size(95, 25);
             this.lbl_Servicio.TabIndex = 10;
@@ -111,7 +114,7 @@
             // 
             // txt_Correo
             // 
-            this.txt_Correo.Location = new System.Drawing.Point(1032, 135);
+            this.txt_Correo.Location = new System.Drawing.Point(1032, 161);
             this.txt_Correo.Name = "txt_Correo";
             this.txt_Correo.Size = new System.Drawing.Size(388, 31);
             this.txt_Correo.TabIndex = 9;
@@ -120,7 +123,7 @@
             // lbl_Correo
             // 
             this.lbl_Correo.AutoSize = true;
-            this.lbl_Correo.Location = new System.Drawing.Point(927, 135);
+            this.lbl_Correo.Location = new System.Drawing.Point(927, 161);
             this.lbl_Correo.Name = "lbl_Correo";
             this.lbl_Correo.Size = new System.Drawing.Size(83, 25);
             this.lbl_Correo.TabIndex = 8;
@@ -129,7 +132,7 @@
             // 
             // txt_Contacto
             // 
-            this.txt_Contacto.Location = new System.Drawing.Point(1032, 85);
+            this.txt_Contacto.Location = new System.Drawing.Point(1032, 111);
             this.txt_Contacto.Name = "txt_Contacto";
             this.txt_Contacto.Size = new System.Drawing.Size(388, 31);
             this.txt_Contacto.TabIndex = 7;
@@ -138,18 +141,48 @@
             // lbl_Contacto
             // 
             this.lbl_Contacto.AutoSize = true;
-            this.lbl_Contacto.Location = new System.Drawing.Point(922, 92);
+            this.lbl_Contacto.Location = new System.Drawing.Point(922, 118);
             this.lbl_Contacto.Name = "lbl_Contacto";
             this.lbl_Contacto.Size = new System.Drawing.Size(104, 25);
             this.lbl_Contacto.TabIndex = 6;
             this.lbl_Contacto.Text = "Contacto:";
             this.lbl_Contacto.Click += new System.EventHandler(this.label3_Click);
             // 
+            // btn_Borrar_OIT
+            // 
+            this.btn_Borrar_OIT.Location = new System.Drawing.Point(1352, 24);
+            this.btn_Borrar_OIT.Name = "btn_Borrar_OIT";
+            this.btn_Borrar_OIT.Size = new System.Drawing.Size(123, 52);
+            this.btn_Borrar_OIT.TabIndex = 43;
+            this.btn_Borrar_OIT.Text = "Borrar";
+            this.btn_Borrar_OIT.UseVisualStyleBackColor = true;
+            // 
+            // btn_Modificar_OIT
+            // 
+            this.btn_Modificar_OIT.Location = new System.Drawing.Point(1198, 24);
+            this.btn_Modificar_OIT.Name = "btn_Modificar_OIT";
+            this.btn_Modificar_OIT.Size = new System.Drawing.Size(123, 52);
+            this.btn_Modificar_OIT.TabIndex = 42;
+            this.btn_Modificar_OIT.Text = "Modificar";
+            this.btn_Modificar_OIT.UseVisualStyleBackColor = true;
+            // 
+            // btn_Agregar_OIT
+            // 
+            this.btn_Agregar_OIT.Location = new System.Drawing.Point(1035, 24);
+            this.btn_Agregar_OIT.Name = "btn_Agregar_OIT";
+            this.btn_Agregar_OIT.Size = new System.Drawing.Size(123, 52);
+            this.btn_Agregar_OIT.TabIndex = 41;
+            this.btn_Agregar_OIT.Text = "Agregar";
+            this.btn_Agregar_OIT.UseVisualStyleBackColor = true;
+            // 
             // Recepción_EntregaDeEquipos_ITEMS_Anadir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1627, 944);
+            this.Controls.Add(this.btn_Borrar_OIT);
+            this.Controls.Add(this.btn_Modificar_OIT);
+            this.Controls.Add(this.btn_Agregar_OIT);
             this.Controls.Add(this.txt_Servicio);
             this.Controls.Add(this.lbl_Servicio);
             this.Controls.Add(this.txt_Correo);
@@ -183,5 +216,8 @@
         private System.Windows.Forms.Label lbl_Correo;
         private System.Windows.Forms.TextBox txt_Contacto;
         private System.Windows.Forms.Label lbl_Contacto;
+        private System.Windows.Forms.Button btn_Borrar_OIT;
+        private System.Windows.Forms.Button btn_Modificar_OIT;
+        private System.Windows.Forms.Button btn_Agregar_OIT;
     }
 }

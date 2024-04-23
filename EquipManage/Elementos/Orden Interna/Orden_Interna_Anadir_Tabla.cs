@@ -26,5 +26,10 @@ namespace EquipManage.Elementos.Orden_Interna
         {
 
         }
+
+        private void btn_Modificar_OI_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
