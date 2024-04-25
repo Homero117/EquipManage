@@ -52,6 +52,7 @@
             this.btn_OrdenInterna.TabIndex = 1;
             this.btn_OrdenInterna.Text = "Orden Interna";
             this.btn_OrdenInterna.UseVisualStyleBackColor = true;
+            this.btn_OrdenInterna.Click += new System.EventHandler(this.btn_OrdenInterna_Click);
             // 
             // lbl_MensagePrincipal
             // 

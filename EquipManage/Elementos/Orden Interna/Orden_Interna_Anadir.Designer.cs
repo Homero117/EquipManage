@@ -75,7 +75,7 @@
             // lbl_NodeOI
             // 
             this.lbl_NodeOI.AutoSize = true;
-            this.lbl_NodeOI.Location = new System.Drawing.Point(78, 63);
+            this.lbl_NodeOI.Location = new System.Drawing.Point(78, 86);
             this.lbl_NodeOI.Name = "lbl_NodeOI";
             this.lbl_NodeOI.Size = new System.Drawing.Size(108, 25);
             this.lbl_NodeOI.TabIndex = 0;
@@ -84,7 +84,7 @@
             // 
             // txt_NoDeOI
             // 
-            this.txt_NoDeOI.Location = new System.Drawing.Point(220, 56);
+            this.txt_NoDeOI.Location = new System.Drawing.Point(220, 79);
             this.txt_NoDeOI.Name = "txt_NoDeOI";
             this.txt_NoDeOI.Size = new System.Drawing.Size(343, 31);
             this.txt_NoDeOI.TabIndex = 1;
@@ -92,7 +92,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(78, 117);
+            this.label1.Location = new System.Drawing.Point(78, 140);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(303, 25);
             this.label1.TabIndex = 2;
@@ -100,7 +100,7 @@
             // 
             // txt_NoDeRegistroAsignado
             // 
-            this.txt_NoDeRegistroAsignado.Location = new System.Drawing.Point(393, 111);
+            this.txt_NoDeRegistroAsignado.Location = new System.Drawing.Point(393, 134);
             this.txt_NoDeRegistroAsignado.Name = "txt_NoDeRegistroAsignado";
             this.txt_NoDeRegistroAsignado.Size = new System.Drawing.Size(445, 31);
             this.txt_NoDeRegistroAsignado.TabIndex = 3;
@@ -108,7 +108,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(82, 171);
+            this.label2.Location = new System.Drawing.Point(82, 194);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(283, 25);
             this.label2.TabIndex = 4;
@@ -117,7 +117,7 @@
             // 
             // txt_FechaDeElaboracióndeOI
             // 
-            this.txt_FechaDeElaboracióndeOI.Location = new System.Drawing.Point(384, 171);
+            this.txt_FechaDeElaboracióndeOI.Location = new System.Drawing.Point(384, 194);
             this.txt_FechaDeElaboracióndeOI.Name = "txt_FechaDeElaboracióndeOI";
             this.txt_FechaDeElaboracióndeOI.Size = new System.Drawing.Size(454, 31);
             this.txt_FechaDeElaboracióndeOI.TabIndex = 5;
@@ -125,7 +125,7 @@
             // lbl_Magnitud
             // 
             this.lbl_Magnitud.AutoSize = true;
-            this.lbl_Magnitud.Location = new System.Drawing.Point(78, 223);
+            this.lbl_Magnitud.Location = new System.Drawing.Point(78, 246);
             this.lbl_Magnitud.Name = "lbl_Magnitud";
             this.lbl_Magnitud.Size = new System.Drawing.Size(107, 25);
             this.lbl_Magnitud.TabIndex = 6;
@@ -133,7 +133,7 @@
             // 
             // txt_Magnitud
             // 
-            this.txt_Magnitud.Location = new System.Drawing.Point(191, 223);
+            this.txt_Magnitud.Location = new System.Drawing.Point(191, 246);
             this.txt_Magnitud.Name = "txt_Magnitud";
             this.txt_Magnitud.Size = new System.Drawing.Size(388, 31);
             this.txt_Magnitud.TabIndex = 7;
@@ -141,7 +141,7 @@
             // lbl_FechaDeRecepción
             // 
             this.lbl_FechaDeRecepción.AutoSize = true;
-            this.lbl_FechaDeRecepción.Location = new System.Drawing.Point(83, 273);
+            this.lbl_FechaDeRecepción.Location = new System.Drawing.Point(83, 296);
             this.lbl_FechaDeRecepción.Name = "lbl_FechaDeRecepción";
             this.lbl_FechaDeRecepción.Size = new System.Drawing.Size(216, 25);
             this.lbl_FechaDeRecepción.TabIndex = 8;
@@ -149,7 +149,7 @@
             // 
             // txt_FechaDeRecepción
             // 
-            this.txt_FechaDeRecepción.Location = new System.Drawing.Point(306, 273);
+            this.txt_FechaDeRecepción.Location = new System.Drawing.Point(306, 296);
             this.txt_FechaDeRecepción.Name = "txt_FechaDeRecepción";
             this.txt_FechaDeRecepción.Size = new System.Drawing.Size(273, 31);
             this.txt_FechaDeRecepción.TabIndex = 9;
@@ -157,7 +157,7 @@
             // lbl_FechaDeTérminoDeServicio
             // 
             this.lbl_FechaDeTérminoDeServicio.AutoSize = true;
-            this.lbl_FechaDeTérminoDeServicio.Location = new System.Drawing.Point(83, 323);
+            this.lbl_FechaDeTérminoDeServicio.Location = new System.Drawing.Point(83, 346);
             this.lbl_FechaDeTérminoDeServicio.Name = "lbl_FechaDeTérminoDeServicio";
             this.lbl_FechaDeTérminoDeServicio.Size = new System.Drawing.Size(295, 25);
             this.lbl_FechaDeTérminoDeServicio.TabIndex = 10;
@@ -166,7 +166,7 @@
             // 
             // txt_FechaDeTérminoDeServicio
             // 
-            this.txt_FechaDeTérminoDeServicio.Location = new System.Drawing.Point(384, 323);
+            this.txt_FechaDeTérminoDeServicio.Location = new System.Drawing.Point(384, 346);
             this.txt_FechaDeTérminoDeServicio.Name = "txt_FechaDeTérminoDeServicio";
             this.txt_FechaDeTérminoDeServicio.Size = new System.Drawing.Size(273, 31);
             this.txt_FechaDeTérminoDeServicio.TabIndex = 11;
@@ -174,7 +174,7 @@
             // lbl_Vendedor
             // 
             this.lbl_Vendedor.AutoSize = true;
-            this.lbl_Vendedor.Location = new System.Drawing.Point(78, 374);
+            this.lbl_Vendedor.Location = new System.Drawing.Point(78, 397);
             this.lbl_Vendedor.Name = "lbl_Vendedor";
             this.lbl_Vendedor.Size = new System.Drawing.Size(111, 25);
             this.lbl_Vendedor.TabIndex = 12;
@@ -182,7 +182,7 @@
             // 
             // txt_Vendedor
             // 
-            this.txt_Vendedor.Location = new System.Drawing.Point(191, 374);
+            this.txt_Vendedor.Location = new System.Drawing.Point(191, 397);
             this.txt_Vendedor.Name = "txt_Vendedor";
             this.txt_Vendedor.Size = new System.Drawing.Size(466, 31);
             this.txt_Vendedor.TabIndex = 13;
@@ -190,7 +190,7 @@
             // lbl_ElaboroOI
             // 
             this.lbl_ElaboroOI.AutoSize = true;
-            this.lbl_ElaboroOI.Location = new System.Drawing.Point(78, 418);
+            this.lbl_ElaboroOI.Location = new System.Drawing.Point(78, 441);
             this.lbl_ElaboroOI.Name = "lbl_ElaboroOI";
             this.lbl_ElaboroOI.Size = new System.Drawing.Size(119, 25);
             this.lbl_ElaboroOI.TabIndex = 14;
@@ -198,7 +198,7 @@
             // 
             // txt_ElaboroOI
             // 
-            this.txt_ElaboroOI.Location = new System.Drawing.Point(198, 418);
+            this.txt_ElaboroOI.Location = new System.Drawing.Point(198, 441);
             this.txt_ElaboroOI.Name = "txt_ElaboroOI";
             this.txt_ElaboroOI.Size = new System.Drawing.Size(459, 31);
             this.txt_ElaboroOI.TabIndex = 15;
@@ -351,11 +351,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(70, 1147);
+            this.dataGridView1.Location = new System.Drawing.Point(70, 1157);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1421, 388);
+            this.dataGridView1.Size = new System.Drawing.Size(1421, 378);
             this.dataGridView1.TabIndex = 33;
             // 
             // btn_Agregar_OI
@@ -405,11 +405,11 @@
             // 
             // btn_Anterior_OI
             // 
-            this.btn_Anterior_OI.Location = new System.Drawing.Point(12, 12);
+            this.btn_Anterior_OI.Location = new System.Drawing.Point(78, 12);
             this.btn_Anterior_OI.Name = "btn_Anterior_OI";
-            this.btn_Anterior_OI.Size = new System.Drawing.Size(119, 34);
+            this.btn_Anterior_OI.Size = new System.Drawing.Size(119, 55);
             this.btn_Anterior_OI.TabIndex = 39;
-            this.btn_Anterior_OI.Text = "Anterior";
+            this.btn_Anterior_OI.Text = "Regresar";
             this.btn_Anterior_OI.UseVisualStyleBackColor = true;
             this.btn_Anterior_OI.Click += new System.EventHandler(this.btn_Anterior_OI_Click);
             // 

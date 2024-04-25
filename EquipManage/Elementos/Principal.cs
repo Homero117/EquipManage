@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EquipManage.Elementos.Recepción_Entrega_de_Equipos_ITEMS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,8 +20,8 @@ namespace EquipManage.Elementos
 
         private void btn_EntregaDeEquipos_Click(object sender, EventArgs e)
         {
-            Orden_Interna_Anadir orden_Interna = new Orden_Interna_Anadir();
-            orden_Interna.Show();
+            Recepción_EntregaDeEquipos_ITEMS_Anadir recepción_EntregaDeEquipos_ITEMS = new Recepción_EntregaDeEquipos_ITEMS_Anadir();
+            recepción_EntregaDeEquipos_ITEMS.Show();
             this.Close();
 
         }
@@ -29,6 +30,13 @@ namespace EquipManage.Elementos
         {
             login login = new login();
             login.Show();
+            this.Close();
+        }
+
+        private void btn_OrdenInterna_Click(object sender, EventArgs e)
+        {
+            Orden_Interna_Anadir orden_Interna = new Orden_Interna_Anadir();
+            orden_Interna.Show();
             this.Close();
         }
     }

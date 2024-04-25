@@ -78,7 +78,7 @@
             // lbl_No_OIT
             // 
             this.lbl_No_OIT.AutoSize = true;
-            this.lbl_No_OIT.Location = new System.Drawing.Point(25, 63);
+            this.lbl_No_OIT.Location = new System.Drawing.Point(33, 136);
             this.lbl_No_OIT.Name = "lbl_No_OIT";
             this.lbl_No_OIT.Size = new System.Drawing.Size(51, 25);
             this.lbl_No_OIT.TabIndex = 0;
@@ -87,7 +87,7 @@
             // lbl_NoDeIngreso_OIT
             // 
             this.lbl_NoDeIngreso_OIT.AutoSize = true;
-            this.lbl_NoDeIngreso_OIT.Location = new System.Drawing.Point(25, 115);
+            this.lbl_NoDeIngreso_OIT.Location = new System.Drawing.Point(33, 188);
             this.lbl_NoDeIngreso_OIT.Name = "lbl_NoDeIngreso_OIT";
             this.lbl_NoDeIngreso_OIT.Size = new System.Drawing.Size(158, 25);
             this.lbl_NoDeIngreso_OIT.TabIndex = 1;
@@ -96,7 +96,7 @@
             // lbl_CertificadoInforme_OIT
             // 
             this.lbl_CertificadoInforme_OIT.AutoSize = true;
-            this.lbl_CertificadoInforme_OIT.Location = new System.Drawing.Point(24, 162);
+            this.lbl_CertificadoInforme_OIT.Location = new System.Drawing.Point(32, 235);
             this.lbl_CertificadoInforme_OIT.Name = "lbl_CertificadoInforme_OIT";
             this.lbl_CertificadoInforme_OIT.Size = new System.Drawing.Size(198, 25);
             this.lbl_CertificadoInforme_OIT.TabIndex = 2;
@@ -105,7 +105,7 @@
             // lbl_TipoDeServicio_OIT
             // 
             this.lbl_TipoDeServicio_OIT.AutoSize = true;
-            this.lbl_TipoDeServicio_OIT.Location = new System.Drawing.Point(26, 215);
+            this.lbl_TipoDeServicio_OIT.Location = new System.Drawing.Point(34, 288);
             this.lbl_TipoDeServicio_OIT.Name = "lbl_TipoDeServicio_OIT";
             this.lbl_TipoDeServicio_OIT.Size = new System.Drawing.Size(173, 25);
             this.lbl_TipoDeServicio_OIT.TabIndex = 3;
@@ -114,7 +114,7 @@
             // lbl_Equipo_OIT
             // 
             this.lbl_Equipo_OIT.AutoSize = true;
-            this.lbl_Equipo_OIT.Location = new System.Drawing.Point(27, 263);
+            this.lbl_Equipo_OIT.Location = new System.Drawing.Point(35, 336);
             this.lbl_Equipo_OIT.Name = "lbl_Equipo_OIT";
             this.lbl_Equipo_OIT.Size = new System.Drawing.Size(85, 25);
             this.lbl_Equipo_OIT.TabIndex = 4;
@@ -123,7 +123,7 @@
             // lbl_MarcaModelo_OIT
             // 
             this.lbl_MarcaModelo_OIT.AutoSize = true;
-            this.lbl_MarcaModelo_OIT.Location = new System.Drawing.Point(23, 311);
+            this.lbl_MarcaModelo_OIT.Location = new System.Drawing.Point(31, 384);
             this.lbl_MarcaModelo_OIT.Name = "lbl_MarcaModelo_OIT";
             this.lbl_MarcaModelo_OIT.Size = new System.Drawing.Size(155, 25);
             this.lbl_MarcaModelo_OIT.TabIndex = 5;
@@ -132,7 +132,7 @@
             // lbl_CodFabricante_OIT
             // 
             this.lbl_CodFabricante_OIT.AutoSize = true;
-            this.lbl_CodFabricante_OIT.Location = new System.Drawing.Point(23, 362);
+            this.lbl_CodFabricante_OIT.Location = new System.Drawing.Point(31, 435);
             this.lbl_CodFabricante_OIT.Name = "lbl_CodFabricante_OIT";
             this.lbl_CodFabricante_OIT.Size = new System.Drawing.Size(171, 25);
             this.lbl_CodFabricante_OIT.TabIndex = 6;
@@ -141,7 +141,7 @@
             // lbl_Serie_OIT
             // 
             this.lbl_Serie_OIT.AutoSize = true;
-            this.lbl_Serie_OIT.Location = new System.Drawing.Point(25, 414);
+            this.lbl_Serie_OIT.Location = new System.Drawing.Point(33, 487);
             this.lbl_Serie_OIT.Name = "lbl_Serie_OIT";
             this.lbl_Serie_OIT.Size = new System.Drawing.Size(68, 25);
             this.lbl_Serie_OIT.TabIndex = 7;
@@ -150,7 +150,7 @@
             // lbl_Identificacion_OIT
             // 
             this.lbl_Identificacion_OIT.AutoSize = true;
-            this.lbl_Identificacion_OIT.Location = new System.Drawing.Point(27, 459);
+            this.lbl_Identificacion_OIT.Location = new System.Drawing.Point(35, 532);
             this.lbl_Identificacion_OIT.Name = "lbl_Identificacion_OIT";
             this.lbl_Identificacion_OIT.Size = new System.Drawing.Size(144, 25);
             this.lbl_Identificacion_OIT.TabIndex = 8;
@@ -159,7 +159,7 @@
             // lbl_Intervalo_OIT
             // 
             this.lbl_Intervalo_OIT.AutoSize = true;
-            this.lbl_Intervalo_OIT.Location = new System.Drawing.Point(27, 506);
+            this.lbl_Intervalo_OIT.Location = new System.Drawing.Point(35, 579);
             this.lbl_Intervalo_OIT.Name = "lbl_Intervalo_OIT";
             this.lbl_Intervalo_OIT.Size = new System.Drawing.Size(100, 25);
             this.lbl_Intervalo_OIT.TabIndex = 9;
@@ -169,7 +169,7 @@
             // lbl_Resolucion_OIT
             // 
             this.lbl_Resolucion_OIT.AutoSize = true;
-            this.lbl_Resolucion_OIT.Location = new System.Drawing.Point(24, 549);
+            this.lbl_Resolucion_OIT.Location = new System.Drawing.Point(32, 622);
             this.lbl_Resolucion_OIT.Name = "lbl_Resolucion_OIT";
             this.lbl_Resolucion_OIT.Size = new System.Drawing.Size(125, 25);
             this.lbl_Resolucion_OIT.TabIndex = 10;
@@ -178,7 +178,7 @@
             // lbl_Grado_OIT
             // 
             this.lbl_Grado_OIT.AutoSize = true;
-            this.lbl_Grado_OIT.Location = new System.Drawing.Point(22, 600);
+            this.lbl_Grado_OIT.Location = new System.Drawing.Point(30, 673);
             this.lbl_Grado_OIT.Name = "lbl_Grado_OIT";
             this.lbl_Grado_OIT.Size = new System.Drawing.Size(209, 25);
             this.lbl_Grado_OIT.TabIndex = 11;
@@ -187,7 +187,7 @@
             // lbl_Accesiorios_OIT
             // 
             this.lbl_Accesiorios_OIT.AutoSize = true;
-            this.lbl_Accesiorios_OIT.Location = new System.Drawing.Point(26, 653);
+            this.lbl_Accesiorios_OIT.Location = new System.Drawing.Point(34, 726);
             this.lbl_Accesiorios_OIT.Name = "lbl_Accesiorios_OIT";
             this.lbl_Accesiorios_OIT.Size = new System.Drawing.Size(129, 25);
             this.lbl_Accesiorios_OIT.TabIndex = 12;
@@ -196,7 +196,7 @@
             // lbl_Observaciones_OIT
             // 
             this.lbl_Observaciones_OIT.AutoSize = true;
-            this.lbl_Observaciones_OIT.Location = new System.Drawing.Point(29, 705);
+            this.lbl_Observaciones_OIT.Location = new System.Drawing.Point(37, 778);
             this.lbl_Observaciones_OIT.Name = "lbl_Observaciones_OIT";
             this.lbl_Observaciones_OIT.Size = new System.Drawing.Size(162, 25);
             this.lbl_Observaciones_OIT.TabIndex = 13;
@@ -250,98 +250,98 @@
             // 
             // txt_No_OIT
             // 
-            this.txt_No_OIT.Location = new System.Drawing.Point(83, 63);
+            this.txt_No_OIT.Location = new System.Drawing.Point(91, 136);
             this.txt_No_OIT.Name = "txt_No_OIT";
             this.txt_No_OIT.Size = new System.Drawing.Size(178, 31);
             this.txt_No_OIT.TabIndex = 19;
             // 
             // txt_NoDeIngreso_OIT
             // 
-            this.txt_NoDeIngreso_OIT.Location = new System.Drawing.Point(189, 115);
+            this.txt_NoDeIngreso_OIT.Location = new System.Drawing.Point(197, 188);
             this.txt_NoDeIngreso_OIT.Name = "txt_NoDeIngreso_OIT";
             this.txt_NoDeIngreso_OIT.Size = new System.Drawing.Size(301, 31);
             this.txt_NoDeIngreso_OIT.TabIndex = 20;
             // 
             // txt_TipoServicio_OIT
             // 
-            this.txt_TipoServicio_OIT.Location = new System.Drawing.Point(205, 215);
+            this.txt_TipoServicio_OIT.Location = new System.Drawing.Point(213, 288);
             this.txt_TipoServicio_OIT.Name = "txt_TipoServicio_OIT";
             this.txt_TipoServicio_OIT.Size = new System.Drawing.Size(451, 31);
             this.txt_TipoServicio_OIT.TabIndex = 21;
             // 
             // txt_CertificadoInforme_OIT
             // 
-            this.txt_CertificadoInforme_OIT.Location = new System.Drawing.Point(228, 162);
+            this.txt_CertificadoInforme_OIT.Location = new System.Drawing.Point(236, 235);
             this.txt_CertificadoInforme_OIT.Name = "txt_CertificadoInforme_OIT";
             this.txt_CertificadoInforme_OIT.Size = new System.Drawing.Size(428, 31);
             this.txt_CertificadoInforme_OIT.TabIndex = 22;
             // 
             // txt_Equipo_OIT
             // 
-            this.txt_Equipo_OIT.Location = new System.Drawing.Point(118, 260);
+            this.txt_Equipo_OIT.Location = new System.Drawing.Point(126, 333);
             this.txt_Equipo_OIT.Name = "txt_Equipo_OIT";
             this.txt_Equipo_OIT.Size = new System.Drawing.Size(372, 31);
             this.txt_Equipo_OIT.TabIndex = 23;
             // 
             // txt_Marca_OIT
             // 
-            this.txt_Marca_OIT.Location = new System.Drawing.Point(184, 311);
+            this.txt_Marca_OIT.Location = new System.Drawing.Point(192, 384);
             this.txt_Marca_OIT.Name = "txt_Marca_OIT";
             this.txt_Marca_OIT.Size = new System.Drawing.Size(472, 31);
             this.txt_Marca_OIT.TabIndex = 24;
             // 
             // txt_CodF_OIT
             // 
-            this.txt_CodF_OIT.Location = new System.Drawing.Point(200, 362);
+            this.txt_CodF_OIT.Location = new System.Drawing.Point(208, 435);
             this.txt_CodF_OIT.Name = "txt_CodF_OIT";
             this.txt_CodF_OIT.Size = new System.Drawing.Size(303, 31);
             this.txt_CodF_OIT.TabIndex = 25;
             // 
             // txt_Serie_OIT
             // 
-            this.txt_Serie_OIT.Location = new System.Drawing.Point(99, 411);
+            this.txt_Serie_OIT.Location = new System.Drawing.Point(107, 484);
             this.txt_Serie_OIT.Name = "txt_Serie_OIT";
             this.txt_Serie_OIT.Size = new System.Drawing.Size(404, 31);
             this.txt_Serie_OIT.TabIndex = 26;
             // 
             // txt_Identificacion_OIT
             // 
-            this.txt_Identificacion_OIT.Location = new System.Drawing.Point(177, 459);
+            this.txt_Identificacion_OIT.Location = new System.Drawing.Point(185, 532);
             this.txt_Identificacion_OIT.Name = "txt_Identificacion_OIT";
             this.txt_Identificacion_OIT.Size = new System.Drawing.Size(326, 31);
             this.txt_Identificacion_OIT.TabIndex = 27;
             // 
             // txt_Intervalo_OIT
             // 
-            this.txt_Intervalo_OIT.Location = new System.Drawing.Point(133, 506);
+            this.txt_Intervalo_OIT.Location = new System.Drawing.Point(141, 579);
             this.txt_Intervalo_OIT.Name = "txt_Intervalo_OIT";
             this.txt_Intervalo_OIT.Size = new System.Drawing.Size(267, 31);
             this.txt_Intervalo_OIT.TabIndex = 28;
             // 
             // txt_Resolucion_OIT
             // 
-            this.txt_Resolucion_OIT.Location = new System.Drawing.Point(155, 549);
+            this.txt_Resolucion_OIT.Location = new System.Drawing.Point(163, 622);
             this.txt_Resolucion_OIT.Name = "txt_Resolucion_OIT";
             this.txt_Resolucion_OIT.Size = new System.Drawing.Size(501, 31);
             this.txt_Resolucion_OIT.TabIndex = 29;
             // 
             // txt_Grado_OIT
             // 
-            this.txt_Grado_OIT.Location = new System.Drawing.Point(237, 597);
+            this.txt_Grado_OIT.Location = new System.Drawing.Point(245, 670);
             this.txt_Grado_OIT.Name = "txt_Grado_OIT";
             this.txt_Grado_OIT.Size = new System.Drawing.Size(266, 31);
             this.txt_Grado_OIT.TabIndex = 30;
             // 
             // txt_Accesiorios_OIT
             // 
-            this.txt_Accesiorios_OIT.Location = new System.Drawing.Point(161, 653);
+            this.txt_Accesiorios_OIT.Location = new System.Drawing.Point(169, 726);
             this.txt_Accesiorios_OIT.Name = "txt_Accesiorios_OIT";
             this.txt_Accesiorios_OIT.Size = new System.Drawing.Size(495, 31);
             this.txt_Accesiorios_OIT.TabIndex = 31;
             // 
             // txt_Observaciones_OIT
             // 
-            this.txt_Observaciones_OIT.Location = new System.Drawing.Point(197, 705);
+            this.txt_Observaciones_OIT.Location = new System.Drawing.Point(205, 778);
             this.txt_Observaciones_OIT.Name = "txt_Observaciones_OIT";
             this.txt_Observaciones_OIT.Size = new System.Drawing.Size(1271, 31);
             this.txt_Observaciones_OIT.TabIndex = 32;
@@ -412,7 +412,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(42, 786);
+            this.dataGridView1.Location = new System.Drawing.Point(35, 847);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
@@ -421,7 +421,7 @@
             // 
             // btn_Siguiente_OIT
             // 
-            this.btn_Siguiente_OIT.Location = new System.Drawing.Point(1469, 1100);
+            this.btn_Siguiente_OIT.Location = new System.Drawing.Point(1481, 1149);
             this.btn_Siguiente_OIT.Name = "btn_Siguiente_OIT";
             this.btn_Siguiente_OIT.Size = new System.Drawing.Size(121, 67);
             this.btn_Siguiente_OIT.TabIndex = 41;
@@ -430,11 +430,11 @@
             // 
             // btn_Anterior_OIT
             // 
-            this.btn_Anterior_OIT.Location = new System.Drawing.Point(12, 12);
+            this.btn_Anterior_OIT.Location = new System.Drawing.Point(39, 47);
             this.btn_Anterior_OIT.Name = "btn_Anterior_OIT";
-            this.btn_Anterior_OIT.Size = new System.Drawing.Size(119, 34);
+            this.btn_Anterior_OIT.Size = new System.Drawing.Size(119, 52);
             this.btn_Anterior_OIT.TabIndex = 43;
-            this.btn_Anterior_OIT.Text = "Anterior";
+            this.btn_Anterior_OIT.Text = "Regresar";
             this.btn_Anterior_OIT.UseVisualStyleBackColor = true;
             this.btn_Anterior_OIT.Click += new System.EventHandler(this.btn_Anterior_OIT_Click);
             // 
@@ -443,7 +443,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1630, 1199);
+            this.ClientSize = new System.Drawing.Size(1630, 1243);
             this.Controls.Add(this.btn_Anterior_OIT);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_Siguiente_OIT);

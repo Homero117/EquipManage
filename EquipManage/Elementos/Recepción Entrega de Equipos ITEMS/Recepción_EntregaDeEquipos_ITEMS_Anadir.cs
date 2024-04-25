@@ -51,5 +51,23 @@ namespace EquipManage.Elementos.Recepción_Entrega_de_Equipos_ITEMS
         {
 
         }
+
+        private void Recepción_EntregaDeEquipos_ITEMS_Anadir_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Principal principal = new Principal();
+            principal.Show();
+
+            this.Close();
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

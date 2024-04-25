@@ -37,8 +37,6 @@ namespace EquipManage
                 Principal principalForm = new Principal();
                 principalForm.Show();
 
-                
-
             }
             else
             {
