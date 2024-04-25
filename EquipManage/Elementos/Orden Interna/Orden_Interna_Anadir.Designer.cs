@@ -346,6 +346,7 @@
             this.btn_Siguiente_OI.TabIndex = 32;
             this.btn_Siguiente_OI.Text = "Siguiente";
             this.btn_Siguiente_OI.UseVisualStyleBackColor = true;
+            this.btn_Siguiente_OI.Click += new System.EventHandler(this.btn_Siguiente_OI_Click);
             // 
             // dataGridView1
             // 
@@ -410,12 +411,14 @@
             this.btn_Anterior_OI.TabIndex = 39;
             this.btn_Anterior_OI.Text = "Anterior";
             this.btn_Anterior_OI.UseVisualStyleBackColor = true;
+            this.btn_Anterior_OI.Click += new System.EventHandler(this.btn_Anterior_OI_Click);
             // 
             // Orden_Interna_Anadir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1630, 1559);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1654, 1559);
             this.Controls.Add(this.btn_Anterior_OI);
             this.Controls.Add(this.txt_DiaParaLaEntrega_OI);
             this.Controls.Add(this.lbl_DiasParaLaEntrega_OI);
@@ -457,6 +460,8 @@
             this.Controls.Add(this.txt_NoDeOI);
             this.Controls.Add(this.lbl_NodeOI);
             this.Name = "Orden_Interna_Anadir";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Orden_Interna_Anadir";
             this.Load += new System.EventHandler(this.Orden_Interna_Anadir_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

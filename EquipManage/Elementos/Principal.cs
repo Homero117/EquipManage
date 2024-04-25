@@ -16,5 +16,20 @@ namespace EquipManage.Elementos
         {
             InitializeComponent();
         }
+
+        private void btn_EntregaDeEquipos_Click(object sender, EventArgs e)
+        {
+            Orden_Interna_Anadir orden_Interna = new Orden_Interna_Anadir();
+            orden_Interna.Show();
+            this.Close();
+
+        }
+
+        private void btn_Salir_Click(object sender, EventArgs e)
+        {
+            login login = new login();
+            login.Show();
+            this.Close();
+        }
     }
 }

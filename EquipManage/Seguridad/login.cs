@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EquipManage.Elementos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace EquipManage
 {
-    public partial class From1 : Form
+    public partial class login : Form
     {
-        public From1()
+        public login()
         {
             InitializeComponent();
         }
@@ -25,6 +26,24 @@ namespace EquipManage
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_Ingresar_Click(object sender, EventArgs e)
+        {
+            string Usuario = txt_Usuario.Text;
+            string Contrasenia = txt_Contrasena.Text;
+            if (Usuario == "Beta" && Contrasenia == "123")
+            {
+                Principal principalForm = new Principal();
+                principalForm.Show();
+
+                
+
+            }
+            else
+            {
+                MessageBox.Show("⚠️ Nombre de usuario o contraseña incorrectos. Por favor, inténtelo de nuevo. ⚠️");
+            }
         }
     }
 }

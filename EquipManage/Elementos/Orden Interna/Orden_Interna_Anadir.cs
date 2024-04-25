@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EquipManage.Elementos.Orden_Interna;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -90,6 +91,21 @@ namespace EquipManage.Elementos
         private void label4_Click_2(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_Siguiente_OI_Click(object sender, EventArgs e)
+        {
+            Orden_Interna_Anadir_Tabla orden_Interna_Anadir_Tabla = new Orden_Interna_Anadir_Tabla();
+            orden_Interna_Anadir_Tabla.Show();
+            this.Close();
+        }
+
+        private void btn_Anterior_OI_Click(object sender, EventArgs e)
+        {
+            Principal principal = new Principal();
+            principal.Show();
+
+            this.Close();
         }
     }
 }

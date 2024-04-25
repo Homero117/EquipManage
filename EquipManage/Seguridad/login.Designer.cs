@@ -1,6 +1,6 @@
 ﻿namespace EquipManage
 {
-    partial class From1
+    partial class login
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -34,12 +34,14 @@
             this.lbl_Contrasena = new System.Windows.Forms.Label();
             this.lbl_MensageDeBienvenida = new System.Windows.Forms.Label();
             this.btn_Ingresar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_Usuario
             // 
             this.lbl_Usuario.AutoSize = true;
-            this.lbl_Usuario.Location = new System.Drawing.Point(615, 326);
+            this.lbl_Usuario.Location = new System.Drawing.Point(161, 335);
             this.lbl_Usuario.Name = "lbl_Usuario";
             this.lbl_Usuario.Size = new System.Drawing.Size(86, 25);
             this.lbl_Usuario.TabIndex = 0;
@@ -47,22 +49,23 @@
             // 
             // txt_Usuario
             // 
-            this.txt_Usuario.Location = new System.Drawing.Point(724, 326);
+            this.txt_Usuario.Location = new System.Drawing.Point(270, 335);
             this.txt_Usuario.Name = "txt_Usuario";
             this.txt_Usuario.Size = new System.Drawing.Size(285, 31);
             this.txt_Usuario.TabIndex = 1;
             // 
             // txt_Contrasena
             // 
-            this.txt_Contrasena.Location = new System.Drawing.Point(724, 393);
+            this.txt_Contrasena.Location = new System.Drawing.Point(270, 402);
             this.txt_Contrasena.Name = "txt_Contrasena";
+            this.txt_Contrasena.PasswordChar = '*';
             this.txt_Contrasena.Size = new System.Drawing.Size(285, 31);
             this.txt_Contrasena.TabIndex = 2;
             // 
             // lbl_Contrasena
             // 
             this.lbl_Contrasena.AutoSize = true;
-            this.lbl_Contrasena.Location = new System.Drawing.Point(578, 393);
+            this.lbl_Contrasena.Location = new System.Drawing.Point(124, 402);
             this.lbl_Contrasena.Name = "lbl_Contrasena";
             this.lbl_Contrasena.Size = new System.Drawing.Size(123, 25);
             this.lbl_Contrasena.TabIndex = 3;
@@ -71,7 +74,7 @@
             // lbl_MensageDeBienvenida
             // 
             this.lbl_MensageDeBienvenida.AutoSize = true;
-            this.lbl_MensageDeBienvenida.Location = new System.Drawing.Point(479, 604);
+            this.lbl_MensageDeBienvenida.Location = new System.Drawing.Point(70, 613);
             this.lbl_MensageDeBienvenida.Name = "lbl_MensageDeBienvenida";
             this.lbl_MensageDeBienvenida.Size = new System.Drawing.Size(650, 25);
             this.lbl_MensageDeBienvenida.TabIndex = 4;
@@ -80,27 +83,42 @@
             // 
             // btn_Ingresar
             // 
-            this.btn_Ingresar.Location = new System.Drawing.Point(752, 476);
+            this.btn_Ingresar.Location = new System.Drawing.Point(298, 485);
             this.btn_Ingresar.Name = "btn_Ingresar";
             this.btn_Ingresar.Size = new System.Drawing.Size(211, 68);
             this.btn_Ingresar.TabIndex = 5;
             this.btn_Ingresar.Text = "Ingresar";
             this.btn_Ingresar.UseVisualStyleBackColor = true;
+            this.btn_Ingresar.Click += new System.EventHandler(this.btn_Ingresar_Click);
             // 
-            // From1
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::EquipManage.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(255, 98);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(300, 151);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1647, 705);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(786, 705);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_Ingresar);
             this.Controls.Add(this.lbl_MensageDeBienvenida);
             this.Controls.Add(this.lbl_Contrasena);
             this.Controls.Add(this.txt_Contrasena);
             this.Controls.Add(this.txt_Usuario);
             this.Controls.Add(this.lbl_Usuario);
-            this.Name = "From1";
-            this.Text = "Form1";
+            this.Name = "login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "login";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,6 +132,7 @@
         private System.Windows.Forms.Label lbl_Contrasena;
         private System.Windows.Forms.Label lbl_MensageDeBienvenida;
         private System.Windows.Forms.Button btn_Ingresar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -36,16 +36,17 @@
             // 
             // btn_EntregaDeEquipos
             // 
-            this.btn_EntregaDeEquipos.Location = new System.Drawing.Point(325, 284);
+            this.btn_EntregaDeEquipos.Location = new System.Drawing.Point(90, 262);
             this.btn_EntregaDeEquipos.Name = "btn_EntregaDeEquipos";
             this.btn_EntregaDeEquipos.Size = new System.Drawing.Size(338, 96);
             this.btn_EntregaDeEquipos.TabIndex = 0;
             this.btn_EntregaDeEquipos.Text = "Recepción / Entrega de Equipos / ITEMS";
             this.btn_EntregaDeEquipos.UseVisualStyleBackColor = true;
+            this.btn_EntregaDeEquipos.Click += new System.EventHandler(this.btn_EntregaDeEquipos_Click);
             // 
             // btn_OrdenInterna
             // 
-            this.btn_OrdenInterna.Location = new System.Drawing.Point(805, 284);
+            this.btn_OrdenInterna.Location = new System.Drawing.Point(707, 262);
             this.btn_OrdenInterna.Name = "btn_OrdenInterna";
             this.btn_OrdenInterna.Size = new System.Drawing.Size(264, 96);
             this.btn_OrdenInterna.TabIndex = 1;
@@ -55,7 +56,7 @@
             // lbl_MensagePrincipal
             // 
             this.lbl_MensagePrincipal.AutoSize = true;
-            this.lbl_MensagePrincipal.Location = new System.Drawing.Point(320, 141);
+            this.lbl_MensagePrincipal.Location = new System.Drawing.Point(85, 119);
             this.lbl_MensagePrincipal.Name = "lbl_MensagePrincipal";
             this.lbl_MensagePrincipal.Size = new System.Drawing.Size(902, 25);
             this.lbl_MensagePrincipal.TabIndex = 2;
@@ -64,24 +65,25 @@
             // 
             // btn_Salir
             // 
-            this.btn_Salir.Location = new System.Drawing.Point(676, 530);
+            this.btn_Salir.Location = new System.Drawing.Point(490, 466);
             this.btn_Salir.Name = "btn_Salir";
             this.btn_Salir.Size = new System.Drawing.Size(132, 73);
             this.btn_Salir.TabIndex = 3;
             this.btn_Salir.Text = "Salir";
             this.btn_Salir.UseVisualStyleBackColor = true;
+            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1614, 748);
+            this.ClientSize = new System.Drawing.Size(1062, 748);
             this.Controls.Add(this.btn_Salir);
             this.Controls.Add(this.lbl_MensagePrincipal);
             this.Controls.Add(this.btn_OrdenInterna);
             this.Controls.Add(this.btn_EntregaDeEquipos);
             this.Name = "Principal";
-            this.Text = "Form1";
+            this.Text = "Principal";
             this.ResumeLayout(false);
             this.PerformLayout();
 

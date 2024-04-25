@@ -436,11 +436,13 @@
             this.btn_Anterior_OIT.TabIndex = 43;
             this.btn_Anterior_OIT.Text = "Anterior";
             this.btn_Anterior_OIT.UseVisualStyleBackColor = true;
+            this.btn_Anterior_OIT.Click += new System.EventHandler(this.btn_Anterior_OIT_Click);
             // 
             // Orden_Interna_Anadir_Tabla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1630, 1199);
             this.Controls.Add(this.btn_Anterior_OIT);
             this.Controls.Add(this.dataGridView1);
@@ -487,7 +489,9 @@
             this.Controls.Add(this.lbl_NoDeIngreso_OIT);
             this.Controls.Add(this.lbl_No_OIT);
             this.Name = "Orden_Interna_Anadir_Tabla";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Orden_Interna_Anadir_Tabla";
+            this.Load += new System.EventHandler(this.Orden_Interna_Anadir_Tabla_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
