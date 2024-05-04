@@ -28,9 +28,8 @@ namespace EquipManage.Elementos
 
         private void btn_Salir_Click(object sender, EventArgs e)
         {
-            login login = new login();
-            login.Show();
             this.Close();
+
         }
 
         private void btn_OrdenInterna_Click(object sender, EventArgs e)
@@ -38,6 +37,11 @@ namespace EquipManage.Elementos
             Orden_Interna_Anadir orden_Interna = new Orden_Interna_Anadir();
             orden_Interna.Show();
             this.Close();
+        }
+
+        private void lbl_MensagePrincipal_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

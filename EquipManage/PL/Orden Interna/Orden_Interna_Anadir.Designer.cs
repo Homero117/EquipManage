@@ -69,7 +69,10 @@
             this.txt_DiaParaLaEntrega_OI = new System.Windows.Forms.TextBox();
             this.btn_Anterior_OI = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.pic_Foto = new System.Windows.Forms.PictureBox();
+            this.btn_AgregarImagen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Foto)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_NodeOI
@@ -340,7 +343,7 @@
             // 
             // btn_Siguiente_OI
             // 
-            this.btn_Siguiente_OI.Location = new System.Drawing.Point(1497, 1480);
+            this.btn_Siguiente_OI.Location = new System.Drawing.Point(1511, 1468);
             this.btn_Siguiente_OI.Name = "btn_Siguiente_OI";
             this.btn_Siguiente_OI.Size = new System.Drawing.Size(121, 67);
             this.btn_Siguiente_OI.TabIndex = 32;
@@ -405,7 +408,7 @@
             // 
             // btn_Anterior_OI
             // 
-            this.btn_Anterior_OI.Location = new System.Drawing.Point(78, 12);
+            this.btn_Anterior_OI.Location = new System.Drawing.Point(83, 12);
             this.btn_Anterior_OI.Name = "btn_Anterior_OI";
             this.btn_Anterior_OI.Size = new System.Drawing.Size(119, 55);
             this.btn_Anterior_OI.TabIndex = 39;
@@ -413,12 +416,31 @@
             this.btn_Anterior_OI.UseVisualStyleBackColor = true;
             this.btn_Anterior_OI.Click += new System.EventHandler(this.btn_Anterior_OI_Click);
             // 
+            // pic_Foto
+            // 
+            this.pic_Foto.Location = new System.Drawing.Point(1005, 220);
+            this.pic_Foto.Name = "pic_Foto";
+            this.pic_Foto.Size = new System.Drawing.Size(484, 246);
+            this.pic_Foto.TabIndex = 40;
+            this.pic_Foto.TabStop = false;
+            // 
+            // btn_AgregarImagen
+            // 
+            this.btn_AgregarImagen.Location = new System.Drawing.Point(789, 422);
+            this.btn_AgregarImagen.Name = "btn_AgregarImagen";
+            this.btn_AgregarImagen.Size = new System.Drawing.Size(210, 44);
+            this.btn_AgregarImagen.TabIndex = 41;
+            this.btn_AgregarImagen.Text = "Agregar Imagen";
+            this.btn_AgregarImagen.UseVisualStyleBackColor = true;
+            // 
             // Orden_Interna_Anadir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1654, 1559);
+            this.Controls.Add(this.btn_AgregarImagen);
+            this.Controls.Add(this.pic_Foto);
             this.Controls.Add(this.btn_Anterior_OI);
             this.Controls.Add(this.txt_DiaParaLaEntrega_OI);
             this.Controls.Add(this.lbl_DiasParaLaEntrega_OI);
@@ -465,6 +487,7 @@
             this.Text = "Orden_Interna_Anadir";
             this.Load += new System.EventHandler(this.Orden_Interna_Anadir_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Foto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -513,5 +536,7 @@
         private System.Windows.Forms.TextBox txt_DiaParaLaEntrega_OI;
         private System.Windows.Forms.Button btn_Anterior_OI;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.PictureBox pic_Foto;
+        private System.Windows.Forms.Button btn_AgregarImagen;
     }
 }

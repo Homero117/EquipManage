@@ -50,28 +50,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Elementos\Orden Interna\Orden_Interna_Anadir_Tabla.cs">
+    <Compile Include="DAL\ConexionDAL.cs" />
+    <Compile Include="PL\Orden Interna\Orden_Interna_Anadir_Tabla.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Elementos\Orden Interna\Orden_Interna_Anadir_Tabla.Designer.cs">
+    <Compile Include="PL\Orden Interna\Orden_Interna_Anadir_Tabla.Designer.cs">
       <DependentUpon>Orden_Interna_Anadir_Tabla.cs</DependentUpon>
     </Compile>
-    <Compile Include="Elementos\Orden Interna\Orden_Interna_Anadir.cs">
+    <Compile Include="PL\Orden Interna\Orden_Interna_Anadir.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Elementos\Orden Interna\Orden_Interna_Anadir.Designer.cs">
+    <Compile Include="PL\Orden Interna\Orden_Interna_Anadir.Designer.cs">
       <DependentUpon>Orden_Interna_Anadir.cs</DependentUpon>
     </Compile>
-    <Compile Include="Elementos\Principal.cs">
+    <Compile Include="PL\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Elementos\Principal.Designer.cs">
+    <Compile Include="PL\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Elementos\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.cs">
+    <Compile Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Elementos\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.Designer.cs">
+    <Compile Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.Designer.cs">
       <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Anadir.cs</DependentUpon>
     </Compile>
     <Compile Include="Seguridad\login.cs">
@@ -82,16 +83,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Elementos\Orden Interna\Orden_Interna_Anadir_Tabla.resx">
+    <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Anadir_Tabla.resx">
       <DependentUpon>Orden_Interna_Anadir_Tabla.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Elementos\Orden Interna\Orden_Interna_Anadir.resx">
+    <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Anadir.resx">
       <DependentUpon>Orden_Interna_Anadir.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Elementos\Principal.resx">
+    <EmbeddedResource Include="PL\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Elementos\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.resx">
+    <EmbeddedResource Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.resx">
       <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Anadir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seguridad\login.resx">
@@ -121,7 +122,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Datos\" />
+    <Folder Include="BLL\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo.png" />

@@ -37,11 +37,19 @@ namespace EquipManage
                 Principal principalForm = new Principal();
                 principalForm.Show();
 
+                txt_Usuario.Text = "";
+                txt_Contrasena.Text = "";
+
             }
             else
             {
                 MessageBox.Show("⚠️ Nombre de usuario o contraseña incorrectos. Por favor, inténtelo de nuevo. ⚠️");
             }
+        }
+
+        private void btn_CerrarElPrograma_Click(object sender, EventArgs e)
+        {
+            this.Close();   
         }
     }
 }

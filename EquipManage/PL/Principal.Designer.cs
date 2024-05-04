@@ -36,7 +36,7 @@
             // 
             // btn_EntregaDeEquipos
             // 
-            this.btn_EntregaDeEquipos.Location = new System.Drawing.Point(90, 262);
+            this.btn_EntregaDeEquipos.Location = new System.Drawing.Point(138, 191);
             this.btn_EntregaDeEquipos.Name = "btn_EntregaDeEquipos";
             this.btn_EntregaDeEquipos.Size = new System.Drawing.Size(338, 96);
             this.btn_EntregaDeEquipos.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // btn_OrdenInterna
             // 
-            this.btn_OrdenInterna.Location = new System.Drawing.Point(707, 262);
+            this.btn_OrdenInterna.Location = new System.Drawing.Point(641, 191);
             this.btn_OrdenInterna.Name = "btn_OrdenInterna";
             this.btn_OrdenInterna.Size = new System.Drawing.Size(264, 96);
             this.btn_OrdenInterna.TabIndex = 1;
@@ -57,20 +57,21 @@
             // lbl_MensagePrincipal
             // 
             this.lbl_MensagePrincipal.AutoSize = true;
-            this.lbl_MensagePrincipal.Location = new System.Drawing.Point(85, 119);
+            this.lbl_MensagePrincipal.Location = new System.Drawing.Point(73, 79);
             this.lbl_MensagePrincipal.Name = "lbl_MensagePrincipal";
             this.lbl_MensagePrincipal.Size = new System.Drawing.Size(902, 25);
             this.lbl_MensagePrincipal.TabIndex = 2;
             this.lbl_MensagePrincipal.Text = " ¿Deseas gestionar la Recepción/Entrega de Equipos/Items o trabajar con Órdenes I" +
     "nternas?";
+            this.lbl_MensagePrincipal.Click += new System.EventHandler(this.lbl_MensagePrincipal_Click);
             // 
             // btn_Salir
             // 
-            this.btn_Salir.Location = new System.Drawing.Point(490, 466);
+            this.btn_Salir.Location = new System.Drawing.Point(449, 406);
             this.btn_Salir.Name = "btn_Salir";
-            this.btn_Salir.Size = new System.Drawing.Size(132, 73);
+            this.btn_Salir.Size = new System.Drawing.Size(189, 56);
             this.btn_Salir.TabIndex = 3;
-            this.btn_Salir.Text = "Salir";
+            this.btn_Salir.Text = "Salir al login";
             this.btn_Salir.UseVisualStyleBackColor = true;
             this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
@@ -78,12 +79,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1062, 748);
+            this.ClientSize = new System.Drawing.Size(1062, 601);
             this.Controls.Add(this.btn_Salir);
             this.Controls.Add(this.lbl_MensagePrincipal);
             this.Controls.Add(this.btn_OrdenInterna);
             this.Controls.Add(this.btn_EntregaDeEquipos);
             this.Name = "Principal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
             this.ResumeLayout(false);
             this.PerformLayout();
