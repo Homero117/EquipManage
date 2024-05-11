@@ -39,9 +39,6 @@ namespace EquipManage.Elementos.Orden_Interna
 
         private void btn_Anterior_OIT_Click(object sender, EventArgs e)
         {
-            Orden_Interna_Anadir orden_Interna = new Orden_Interna_Anadir();    
-            orden_Interna.Show();
-
             this.Close();
         }
     }

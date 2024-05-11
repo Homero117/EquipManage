@@ -97,7 +97,6 @@ namespace EquipManage.Elementos
         {
             Orden_Interna_Anadir_Tabla orden_Interna_Anadir_Tabla = new Orden_Interna_Anadir_Tabla();
             orden_Interna_Anadir_Tabla.Show();
-            this.Close();
         }
 
         private void btn_Anterior_OI_Click(object sender, EventArgs e)

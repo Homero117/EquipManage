@@ -66,11 +66,10 @@
             this.txt_NoPlano_OIT = new System.Windows.Forms.TextBox();
             this.txt_NoCotas_OIT = new System.Windows.Forms.TextBox();
             this.txt_NoPiezas_OIT = new System.Windows.Forms.TextBox();
-            this.btn_Borrar_OIT = new System.Windows.Forms.Button();
-            this.btn_Modificar_OIT = new System.Windows.Forms.Button();
             this.btn_Agregar_OIT = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btn_Modificar_OIT = new System.Windows.Forms.Button();
             this.btn_Siguiente_OIT = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_Anterior_OIT = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -381,18 +380,18 @@
             this.txt_NoPiezas_OIT.Size = new System.Drawing.Size(160, 31);
             this.txt_NoPiezas_OIT.TabIndex = 37;
             // 
-            // btn_Borrar_OIT
+            // btn_Agregar_OIT
             // 
-            this.btn_Borrar_OIT.Location = new System.Drawing.Point(1336, 58);
-            this.btn_Borrar_OIT.Name = "btn_Borrar_OIT";
-            this.btn_Borrar_OIT.Size = new System.Drawing.Size(123, 52);
-            this.btn_Borrar_OIT.TabIndex = 40;
-            this.btn_Borrar_OIT.Text = "Borrar";
-            this.btn_Borrar_OIT.UseVisualStyleBackColor = true;
+            this.btn_Agregar_OIT.Location = new System.Drawing.Point(1175, 58);
+            this.btn_Agregar_OIT.Name = "btn_Agregar_OIT";
+            this.btn_Agregar_OIT.Size = new System.Drawing.Size(123, 52);
+            this.btn_Agregar_OIT.TabIndex = 38;
+            this.btn_Agregar_OIT.Text = "Agregar";
+            this.btn_Agregar_OIT.UseVisualStyleBackColor = true;
             // 
             // btn_Modificar_OIT
             // 
-            this.btn_Modificar_OIT.Location = new System.Drawing.Point(1182, 58);
+            this.btn_Modificar_OIT.Location = new System.Drawing.Point(1338, 58);
             this.btn_Modificar_OIT.Name = "btn_Modificar_OIT";
             this.btn_Modificar_OIT.Size = new System.Drawing.Size(123, 52);
             this.btn_Modificar_OIT.TabIndex = 39;
@@ -400,14 +399,14 @@
             this.btn_Modificar_OIT.UseVisualStyleBackColor = true;
             this.btn_Modificar_OIT.Click += new System.EventHandler(this.btn_Modificar_OI_Click);
             // 
-            // btn_Agregar_OIT
+            // btn_Siguiente_OIT
             // 
-            this.btn_Agregar_OIT.Location = new System.Drawing.Point(1019, 58);
-            this.btn_Agregar_OIT.Name = "btn_Agregar_OIT";
-            this.btn_Agregar_OIT.Size = new System.Drawing.Size(123, 52);
-            this.btn_Agregar_OIT.TabIndex = 38;
-            this.btn_Agregar_OIT.Text = "Agregar";
-            this.btn_Agregar_OIT.UseVisualStyleBackColor = true;
+            this.btn_Siguiente_OIT.Location = new System.Drawing.Point(1481, 1149);
+            this.btn_Siguiente_OIT.Name = "btn_Siguiente_OIT";
+            this.btn_Siguiente_OIT.Size = new System.Drawing.Size(121, 67);
+            this.btn_Siguiente_OIT.TabIndex = 41;
+            this.btn_Siguiente_OIT.Text = "Siguiente";
+            this.btn_Siguiente_OIT.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -418,15 +417,6 @@
             this.dataGridView1.RowTemplate.Height = 33;
             this.dataGridView1.Size = new System.Drawing.Size(1421, 369);
             this.dataGridView1.TabIndex = 42;
-            // 
-            // btn_Siguiente_OIT
-            // 
-            this.btn_Siguiente_OIT.Location = new System.Drawing.Point(1481, 1149);
-            this.btn_Siguiente_OIT.Name = "btn_Siguiente_OIT";
-            this.btn_Siguiente_OIT.Size = new System.Drawing.Size(121, 67);
-            this.btn_Siguiente_OIT.TabIndex = 41;
-            this.btn_Siguiente_OIT.Text = "Siguiente";
-            this.btn_Siguiente_OIT.UseVisualStyleBackColor = true;
             // 
             // btn_Anterior_OIT
             // 
@@ -447,7 +437,6 @@
             this.Controls.Add(this.btn_Anterior_OIT);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_Siguiente_OIT);
-            this.Controls.Add(this.btn_Borrar_OIT);
             this.Controls.Add(this.btn_Modificar_OIT);
             this.Controls.Add(this.btn_Agregar_OIT);
             this.Controls.Add(this.txt_NoPiezas_OIT);
@@ -538,11 +527,10 @@
         private System.Windows.Forms.TextBox txt_NoPlano_OIT;
         private System.Windows.Forms.TextBox txt_NoCotas_OIT;
         private System.Windows.Forms.TextBox txt_NoPiezas_OIT;
-        private System.Windows.Forms.Button btn_Borrar_OIT;
-        private System.Windows.Forms.Button btn_Modificar_OIT;
         private System.Windows.Forms.Button btn_Agregar_OIT;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btn_Modificar_OIT;
         private System.Windows.Forms.Button btn_Siguiente_OIT;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_Anterior_OIT;
     }
 }

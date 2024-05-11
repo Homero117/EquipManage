@@ -1,4 +1,5 @@
 ﻿using EquipManage.Elementos;
+using EquipManage.PL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,10 +33,30 @@ namespace EquipManage
         {
             string Usuario = txt_Usuario.Text;
             string Contrasenia = txt_Contrasena.Text;
-            if (Usuario == "Beta" && Contrasenia == "123")
+
+            if (Usuario == "Trabajador" && Contrasenia == "123")
             {
                 Principal principalForm = new Principal();
                 principalForm.Show();
+
+                txt_Usuario.Text = "";
+                txt_Contrasena.Text = "";
+
+            }
+            else if (Usuario == "Admin" && Contrasenia == "123")
+            {
+                Principal_Admin principal_Admin = new Principal_Admin();
+                principal_Admin.Show();
+
+                txt_Usuario.Text = "";
+                txt_Contrasena.Text = "";
+
+            }
+            else if (Usuario == "Pantalla" && Contrasenia == "123")
+            {
+                Principal_Ver principal_Ver = new Principal_Ver();
+                principal_Ver.Show();
+
 
                 txt_Usuario.Text = "";
                 txt_Contrasena.Text = "";

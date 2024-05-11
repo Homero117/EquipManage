@@ -48,7 +48,7 @@
             this.lbl_NombreCliente = new System.Windows.Forms.Label();
             this.lbl_DireccionCliente = new System.Windows.Forms.Label();
             this.txt_NombreCliente = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_DireccionClienteE = new System.Windows.Forms.TextBox();
             this.lbl_Atencion = new System.Windows.Forms.Label();
             this.txt_Atencion = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -64,13 +64,12 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_Agregar_OI = new System.Windows.Forms.Button();
             this.btn_Modificar_OI = new System.Windows.Forms.Button();
-            this.btn_Borrar_OI = new System.Windows.Forms.Button();
             this.lbl_DiasParaLaEntrega_OI = new System.Windows.Forms.Label();
             this.txt_DiaParaLaEntrega_OI = new System.Windows.Forms.TextBox();
             this.btn_Anterior_OI = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.pic_Foto = new System.Windows.Forms.PictureBox();
             this.btn_AgregarImagen = new System.Windows.Forms.Button();
+            this.pic_Foto = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Foto)).BeginInit();
             this.SuspendLayout();
@@ -242,12 +241,12 @@
             this.txt_NombreCliente.Size = new System.Drawing.Size(1331, 31);
             this.txt_NombreCliente.TabIndex = 19;
             // 
-            // textBox1
+            // txt_DireccionClienteE
             // 
-            this.textBox1.Location = new System.Drawing.Point(191, 612);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1322, 31);
-            this.textBox1.TabIndex = 20;
+            this.txt_DireccionClienteE.Location = new System.Drawing.Point(191, 612);
+            this.txt_DireccionClienteE.Name = "txt_DireccionClienteE";
+            this.txt_DireccionClienteE.Size = new System.Drawing.Size(1322, 31);
+            this.txt_DireccionClienteE.TabIndex = 20;
             // 
             // lbl_Atencion
             // 
@@ -363,7 +362,7 @@
             // 
             // btn_Agregar_OI
             // 
-            this.btn_Agregar_OI.Location = new System.Drawing.Point(1049, 45);
+            this.btn_Agregar_OI.Location = new System.Drawing.Point(1206, 45);
             this.btn_Agregar_OI.Name = "btn_Agregar_OI";
             this.btn_Agregar_OI.Size = new System.Drawing.Size(123, 52);
             this.btn_Agregar_OI.TabIndex = 34;
@@ -372,21 +371,12 @@
             // 
             // btn_Modificar_OI
             // 
-            this.btn_Modificar_OI.Location = new System.Drawing.Point(1212, 45);
+            this.btn_Modificar_OI.Location = new System.Drawing.Point(1369, 45);
             this.btn_Modificar_OI.Name = "btn_Modificar_OI";
             this.btn_Modificar_OI.Size = new System.Drawing.Size(123, 52);
             this.btn_Modificar_OI.TabIndex = 35;
             this.btn_Modificar_OI.Text = "Modificar";
             this.btn_Modificar_OI.UseVisualStyleBackColor = true;
-            // 
-            // btn_Borrar_OI
-            // 
-            this.btn_Borrar_OI.Location = new System.Drawing.Point(1366, 45);
-            this.btn_Borrar_OI.Name = "btn_Borrar_OI";
-            this.btn_Borrar_OI.Size = new System.Drawing.Size(123, 52);
-            this.btn_Borrar_OI.TabIndex = 36;
-            this.btn_Borrar_OI.Text = "Borrar";
-            this.btn_Borrar_OI.UseVisualStyleBackColor = true;
             // 
             // lbl_DiasParaLaEntrega_OI
             // 
@@ -416,14 +406,6 @@
             this.btn_Anterior_OI.UseVisualStyleBackColor = true;
             this.btn_Anterior_OI.Click += new System.EventHandler(this.btn_Anterior_OI_Click);
             // 
-            // pic_Foto
-            // 
-            this.pic_Foto.Location = new System.Drawing.Point(1005, 220);
-            this.pic_Foto.Name = "pic_Foto";
-            this.pic_Foto.Size = new System.Drawing.Size(484, 246);
-            this.pic_Foto.TabIndex = 40;
-            this.pic_Foto.TabStop = false;
-            // 
             // btn_AgregarImagen
             // 
             this.btn_AgregarImagen.Location = new System.Drawing.Point(789, 422);
@@ -433,18 +415,26 @@
             this.btn_AgregarImagen.Text = "Agregar Imagen";
             this.btn_AgregarImagen.UseVisualStyleBackColor = true;
             // 
+            // pic_Foto
+            // 
+            this.pic_Foto.Location = new System.Drawing.Point(1005, 220);
+            this.pic_Foto.Name = "pic_Foto";
+            this.pic_Foto.Size = new System.Drawing.Size(484, 246);
+            this.pic_Foto.TabIndex = 40;
+            this.pic_Foto.TabStop = false;
+            // 
             // Orden_Interna_Anadir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1654, 1559);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(1636, 1559);
             this.Controls.Add(this.btn_AgregarImagen);
             this.Controls.Add(this.pic_Foto);
             this.Controls.Add(this.btn_Anterior_OI);
             this.Controls.Add(this.txt_DiaParaLaEntrega_OI);
             this.Controls.Add(this.lbl_DiasParaLaEntrega_OI);
-            this.Controls.Add(this.btn_Borrar_OI);
             this.Controls.Add(this.btn_Modificar_OI);
             this.Controls.Add(this.btn_Agregar_OI);
             this.Controls.Add(this.dataGridView1);
@@ -460,7 +450,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_Atencion);
             this.Controls.Add(this.lbl_Atencion);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_DireccionClienteE);
             this.Controls.Add(this.txt_NombreCliente);
             this.Controls.Add(this.lbl_DireccionCliente);
             this.Controls.Add(this.lbl_NombreCliente);
@@ -515,7 +505,7 @@
         private System.Windows.Forms.Label lbl_NombreCliente;
         private System.Windows.Forms.Label lbl_DireccionCliente;
         private System.Windows.Forms.TextBox txt_NombreCliente;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_DireccionClienteE;
         private System.Windows.Forms.Label lbl_Atencion;
         private System.Windows.Forms.TextBox txt_Atencion;
         private System.Windows.Forms.Label label3;
@@ -531,7 +521,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_Agregar_OI;
         private System.Windows.Forms.Button btn_Modificar_OI;
-        private System.Windows.Forms.Button btn_Borrar_OI;
         private System.Windows.Forms.Label lbl_DiasParaLaEntrega_OI;
         private System.Windows.Forms.TextBox txt_DiaParaLaEntrega_OI;
         private System.Windows.Forms.Button btn_Anterior_OI;

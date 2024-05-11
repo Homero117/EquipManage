@@ -50,7 +50,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\Orden_InternaBLL.cs" />
+    <Compile Include="BLL\RecepcionBLL.cs" />
     <Compile Include="DAL\ConexionDAL.cs" />
+    <Compile Include="DAL\Orden_InternaDAL.cs" />
+    <Compile Include="DAL\RecepcionDAL.cs" />
+    <Compile Include="PL\Orden Interna\Orden_Interna_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Orden Interna\Orden_Interna_Admin.Designer.cs">
+      <DependentUpon>Orden_Interna_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Orden Interna\Orden_Interna_Admin_Tabla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Orden Interna\Orden_Interna_Admin_Tabla.Designer.cs">
+      <DependentUpon>Orden_Interna_Admin_Tabla.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Orden Interna\Orden_Interna_Anadir_Tabla.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,11 +79,41 @@
     <Compile Include="PL\Orden Interna\Orden_Interna_Anadir.Designer.cs">
       <DependentUpon>Orden_Interna_Anadir.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\Orden Interna\Orden_Interna_Ver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Orden Interna\Orden_Interna_Ver.Designer.cs">
+      <DependentUpon>Orden_Interna_Ver.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PL\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Principal_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Principal_Admin.Designer.cs">
+      <DependentUpon>Principal_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Principal_Ver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Principal_Ver.Designer.cs">
+      <DependentUpon>Principal_Ver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Recepción Entrega de Equipos ITEMS\Recepcion_Ver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Recepción Entrega de Equipos ITEMS\Recepcion_Ver.Designer.cs">
+      <DependentUpon>Recepcion_Ver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Admin.Designer.cs">
+      <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Admin.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.cs">
       <SubType>Form</SubType>
@@ -83,14 +129,35 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Admin.resx">
+      <DependentUpon>Orden_Interna_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Admin_Tabla.resx">
+      <DependentUpon>Orden_Interna_Admin_Tabla.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Anadir_Tabla.resx">
       <DependentUpon>Orden_Interna_Anadir_Tabla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Anadir.resx">
       <DependentUpon>Orden_Interna_Anadir.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Ver.resx">
+      <DependentUpon>Orden_Interna_Ver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Principal_Admin.resx">
+      <DependentUpon>Principal_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Principal_Ver.resx">
+      <DependentUpon>Principal_Ver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Recepción Entrega de Equipos ITEMS\Recepcion_Ver.resx">
+      <DependentUpon>Recepcion_Ver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Admin.resx">
+      <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.resx">
       <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Anadir.cs</DependentUpon>
@@ -121,9 +188,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\logo.png" />
   </ItemGroup>
