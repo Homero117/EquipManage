@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace EquipManage.PL.Orden_Interna
 {
     public partial class Orden_Interna_Admin_Tabla : Form
@@ -83,6 +84,26 @@ namespace EquipManage.PL.Orden_Interna
                 txt__SApellido.Text = dgv_Empleado.Rows[indice].Cells[3].Value.ToString();
                 txt_Correo.Text = dgv_Empleado.Rows[indice].Cells[4].Value.ToString();
                 */
+                txt_No_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_NoDeIngreso_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_CertificadoInforme_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_TipoServicio_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Equipo_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Marca_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_CodF_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Serie_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Identificacion_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Intervalo_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Resolucion_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Grado_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Accesiorios_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Observaciones_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_Material_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_NoParte_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_NoPlano_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_NoCotas_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+                txt_NoPiezas_OIT.Text = dgv_OI_Admin_Tabla.Rows[indice].Cells[0].Value.ToString();
+
 
 
             }

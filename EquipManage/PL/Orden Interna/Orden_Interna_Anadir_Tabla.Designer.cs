@@ -69,9 +69,9 @@
             this.btn_Agregar_OIT = new System.Windows.Forms.Button();
             this.btn_Modificar_OIT = new System.Windows.Forms.Button();
             this.btn_Siguiente_OIT = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_OI = new System.Windows.Forms.DataGridView();
             this.btn_Anterior_OIT = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_OI)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_No_OIT
@@ -388,6 +388,7 @@
             this.btn_Agregar_OIT.TabIndex = 38;
             this.btn_Agregar_OIT.Text = "Agregar";
             this.btn_Agregar_OIT.UseVisualStyleBackColor = true;
+            this.btn_Agregar_OIT.Click += new System.EventHandler(this.btn_Agregar_OIT_Click);
             // 
             // btn_Modificar_OIT
             // 
@@ -408,15 +409,16 @@
             this.btn_Siguiente_OIT.Text = "Siguiente";
             this.btn_Siguiente_OIT.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgv_OI
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(35, 847);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1421, 369);
-            this.dataGridView1.TabIndex = 42;
+            this.dgv_OI.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_OI.Location = new System.Drawing.Point(35, 847);
+            this.dgv_OI.Name = "dgv_OI";
+            this.dgv_OI.RowHeadersWidth = 82;
+            this.dgv_OI.RowTemplate.Height = 33;
+            this.dgv_OI.Size = new System.Drawing.Size(1421, 369);
+            this.dgv_OI.TabIndex = 42;
+            this.dgv_OI.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Seleccionar);
             // 
             // btn_Anterior_OIT
             // 
@@ -435,7 +437,7 @@
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1630, 1243);
             this.Controls.Add(this.btn_Anterior_OIT);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_OI);
             this.Controls.Add(this.btn_Siguiente_OIT);
             this.Controls.Add(this.btn_Modificar_OIT);
             this.Controls.Add(this.btn_Agregar_OIT);
@@ -481,7 +483,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Orden_Interna_Anadir_Tabla";
             this.Load += new System.EventHandler(this.Orden_Interna_Anadir_Tabla_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_OI)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -530,7 +532,7 @@
         private System.Windows.Forms.Button btn_Agregar_OIT;
         private System.Windows.Forms.Button btn_Modificar_OIT;
         private System.Windows.Forms.Button btn_Siguiente_OIT;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_OI;
         private System.Windows.Forms.Button btn_Anterior_OIT;
     }
 }

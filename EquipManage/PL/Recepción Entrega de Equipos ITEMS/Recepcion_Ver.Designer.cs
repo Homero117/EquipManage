@@ -28,21 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_R = new System.Windows.Forms.DataGridView();
             this.Recepcion_Ver_Titulo = new System.Windows.Forms.Label();
             this.btnRegresar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_R)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgv_R
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 149);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(2423, 1097);
-            this.dataGridView1.TabIndex = 0;
+            this.dgv_R.AllowUserToAddRows = false;
+            this.dgv_R.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv_R.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_R.Location = new System.Drawing.Point(12, 149);
+            this.dgv_R.Name = "dgv_R";
+            this.dgv_R.RowHeadersWidth = 82;
+            this.dgv_R.RowTemplate.Height = 33;
+            this.dgv_R.Size = new System.Drawing.Size(2423, 1097);
+            this.dgv_R.TabIndex = 0;
             // 
             // Recepcion_Ver_Titulo
             // 
@@ -73,10 +75,11 @@
             this.ClientSize = new System.Drawing.Size(2447, 1258);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.Recepcion_Ver_Titulo);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_R);
             this.Name = "Recepcion_Ver";
             this.Text = "Recepcion_Ver";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Recepcion_Ver_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_R)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -84,7 +87,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_R;
         private System.Windows.Forms.Label Recepcion_Ver_Titulo;
         private System.Windows.Forms.Button btnRegresar;
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EquipManage.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,8 +13,10 @@ namespace EquipManage.PL.Recepción_Entrega_de_Equipos_ITEMS
 {
     public partial class Recepcion_Ver : Form
     {
+        RecepcionDAL oRecepcionDAL;
         public Recepcion_Ver()
         {
+            oRecepcionDAL = new RecepcionDAL();
             InitializeComponent();
         }
 
@@ -27,6 +30,17 @@ namespace EquipManage.PL.Recepción_Entrega_de_Equipos_ITEMS
             Principal_Ver principal_Ver = new Principal_Ver();
             principal_Ver.Show();
             this.Close();
+        }
+
+        private void Recepcion_Ver_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public void LLenarGridR()
+        {
+            dgv_R.DataSource = oRecepcionDAL.MostrarR().Tables[0];
+
         }
     }
 }

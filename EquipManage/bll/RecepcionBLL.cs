@@ -8,6 +8,7 @@ namespace EquipManage.BLL
 {
     internal class RecepcionBLL
     {
+        public int NoR { get; set; }
         public string Empresa { get; set; }
         public string Tel_Cel { get; set; }
         public string fecha { get; set; }
@@ -15,6 +16,8 @@ namespace EquipManage.BLL
         public string correo { get; set; }
         public string servicio { get; set; }
         public string NoIngreso { get; set; }
+        public string Certificado { get; set; }
+        public string TipoServicio { get; set; }
         public string Equipo_ITEM { get; set; }
         public string Marca { get; set; }
         public string Modelo { get; set; }

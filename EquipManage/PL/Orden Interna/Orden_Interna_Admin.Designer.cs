@@ -39,13 +39,6 @@
             this.btn_Siguiente_OI = new System.Windows.Forms.Button();
             this.txt_ObservaG = new System.Windows.Forms.TextBox();
             this.lbl_MensageObservacionesGenerales = new System.Windows.Forms.Label();
-            this.txt_LugarDeCalibracionMedicion = new System.Windows.Forms.TextBox();
-            this.lbl_LugarDeCalibracionMedicion = new System.Windows.Forms.Label();
-            this.txt_ActividadARealizar = new System.Windows.Forms.TextBox();
-            this.lbl_ActividadARealizar = new System.Windows.Forms.Label();
-            this.txt_NombreClienteFacturar = new System.Windows.Forms.TextBox();
-            this.lbl_NombreClienteFacturar = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.txt_Atencion = new System.Windows.Forms.TextBox();
             this.lbl_Atencion = new System.Windows.Forms.Label();
             this.txt_DireccionClienteE = new System.Windows.Forms.TextBox();
@@ -147,7 +140,7 @@
             this.dgv_OI_Admin.AllowUserToAddRows = false;
             this.dgv_OI_Admin.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_OI_Admin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_OI_Admin.Location = new System.Drawing.Point(72, 1163);
+            this.dgv_OI_Admin.Location = new System.Drawing.Point(72, 859);
             this.dgv_OI_Admin.Name = "dgv_OI_Admin";
             this.dgv_OI_Admin.RowHeadersWidth = 82;
             this.dgv_OI_Admin.RowTemplate.Height = 33;
@@ -158,7 +151,7 @@
             // 
             // btn_Siguiente_OI
             // 
-            this.btn_Siguiente_OI.Location = new System.Drawing.Point(1513, 1474);
+            this.btn_Siguiente_OI.Location = new System.Drawing.Point(1513, 1170);
             this.btn_Siguiente_OI.Name = "btn_Siguiente_OI";
             this.btn_Siguiente_OI.Size = new System.Drawing.Size(121, 67);
             this.btn_Siguiente_OI.TabIndex = 74;
@@ -168,7 +161,7 @@
             // 
             // txt_ObservaG
             // 
-            this.txt_ObservaG.Location = new System.Drawing.Point(100, 1096);
+            this.txt_ObservaG.Location = new System.Drawing.Point(100, 792);
             this.txt_ObservaG.Name = "txt_ObservaG";
             this.txt_ObservaG.Size = new System.Drawing.Size(1415, 31);
             this.txt_ObservaG.TabIndex = 73;
@@ -176,68 +169,11 @@
             // lbl_MensageObservacionesGenerales
             // 
             this.lbl_MensageObservacionesGenerales.AutoSize = true;
-            this.lbl_MensageObservacionesGenerales.Location = new System.Drawing.Point(673, 1048);
+            this.lbl_MensageObservacionesGenerales.Location = new System.Drawing.Point(673, 744);
             this.lbl_MensageObservacionesGenerales.Name = "lbl_MensageObservacionesGenerales";
             this.lbl_MensageObservacionesGenerales.Size = new System.Drawing.Size(267, 25);
             this.lbl_MensageObservacionesGenerales.TabIndex = 72;
             this.lbl_MensageObservacionesGenerales.Text = "Observaciones Generales:";
-            // 
-            // txt_LugarDeCalibracionMedicion
-            // 
-            this.txt_LugarDeCalibracionMedicion.Location = new System.Drawing.Point(419, 968);
-            this.txt_LugarDeCalibracionMedicion.Name = "txt_LugarDeCalibracionMedicion";
-            this.txt_LugarDeCalibracionMedicion.Size = new System.Drawing.Size(1086, 31);
-            this.txt_LugarDeCalibracionMedicion.TabIndex = 71;
-            // 
-            // lbl_LugarDeCalibracionMedicion
-            // 
-            this.lbl_LugarDeCalibracionMedicion.AutoSize = true;
-            this.lbl_LugarDeCalibracionMedicion.Location = new System.Drawing.Point(103, 968);
-            this.lbl_LugarDeCalibracionMedicion.Name = "lbl_LugarDeCalibracionMedicion";
-            this.lbl_LugarDeCalibracionMedicion.Size = new System.Drawing.Size(310, 25);
-            this.lbl_LugarDeCalibracionMedicion.TabIndex = 70;
-            this.lbl_LugarDeCalibracionMedicion.Text = "Lugar de Calibración/Medición:";
-            // 
-            // txt_ActividadARealizar
-            // 
-            this.txt_ActividadARealizar.Location = new System.Drawing.Point(308, 911);
-            this.txt_ActividadARealizar.Name = "txt_ActividadARealizar";
-            this.txt_ActividadARealizar.Size = new System.Drawing.Size(1197, 31);
-            this.txt_ActividadARealizar.TabIndex = 69;
-            // 
-            // lbl_ActividadARealizar
-            // 
-            this.lbl_ActividadARealizar.AutoSize = true;
-            this.lbl_ActividadARealizar.Location = new System.Drawing.Point(103, 911);
-            this.lbl_ActividadARealizar.Name = "lbl_ActividadARealizar";
-            this.lbl_ActividadARealizar.Size = new System.Drawing.Size(201, 25);
-            this.lbl_ActividadARealizar.TabIndex = 68;
-            this.lbl_ActividadARealizar.Text = "Actividad a realizar:";
-            // 
-            // txt_NombreClienteFacturar
-            // 
-            this.txt_NombreClienteFacturar.Location = new System.Drawing.Point(193, 848);
-            this.txt_NombreClienteFacturar.Name = "txt_NombreClienteFacturar";
-            this.txt_NombreClienteFacturar.Size = new System.Drawing.Size(1312, 31);
-            this.txt_NombreClienteFacturar.TabIndex = 67;
-            // 
-            // lbl_NombreClienteFacturar
-            // 
-            this.lbl_NombreClienteFacturar.AutoSize = true;
-            this.lbl_NombreClienteFacturar.Location = new System.Drawing.Point(103, 848);
-            this.lbl_NombreClienteFacturar.Name = "lbl_NombreClienteFacturar";
-            this.lbl_NombreClienteFacturar.Size = new System.Drawing.Size(93, 25);
-            this.lbl_NombreClienteFacturar.TabIndex = 66;
-            this.lbl_NombreClienteFacturar.Text = "Nombre:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(647, 784);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(313, 25);
-            this.label3.TabIndex = 65;
-            this.label3.Text = "Datos del cliente para Facturar:";
             // 
             // txt_Atencion
             // 
@@ -461,13 +397,6 @@
             this.Controls.Add(this.btn_Siguiente_OI);
             this.Controls.Add(this.txt_ObservaG);
             this.Controls.Add(this.lbl_MensageObservacionesGenerales);
-            this.Controls.Add(this.txt_LugarDeCalibracionMedicion);
-            this.Controls.Add(this.lbl_LugarDeCalibracionMedicion);
-            this.Controls.Add(this.txt_ActividadARealizar);
-            this.Controls.Add(this.lbl_ActividadARealizar);
-            this.Controls.Add(this.txt_NombreClienteFacturar);
-            this.Controls.Add(this.lbl_NombreClienteFacturar);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_Atencion);
             this.Controls.Add(this.lbl_Atencion);
             this.Controls.Add(this.txt_DireccionClienteE);
@@ -515,13 +444,6 @@
         private System.Windows.Forms.Button btn_Siguiente_OI;
         private System.Windows.Forms.TextBox txt_ObservaG;
         private System.Windows.Forms.Label lbl_MensageObservacionesGenerales;
-        private System.Windows.Forms.TextBox txt_LugarDeCalibracionMedicion;
-        private System.Windows.Forms.Label lbl_LugarDeCalibracionMedicion;
-        private System.Windows.Forms.TextBox txt_ActividadARealizar;
-        private System.Windows.Forms.Label lbl_ActividadARealizar;
-        private System.Windows.Forms.TextBox txt_NombreClienteFacturar;
-        private System.Windows.Forms.Label lbl_NombreClienteFacturar;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txt_Atencion;
         private System.Windows.Forms.Label lbl_Atencion;
         private System.Windows.Forms.TextBox txt_DireccionClienteE;

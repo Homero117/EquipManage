@@ -36,6 +36,7 @@
             this.btn_Ingresar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_CerrarElPrograma = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,11 +76,11 @@
             // lbl_MensageDeBienvenida
             // 
             this.lbl_MensageDeBienvenida.AutoSize = true;
-            this.lbl_MensageDeBienvenida.Location = new System.Drawing.Point(119, 614);
+            this.lbl_MensageDeBienvenida.Location = new System.Drawing.Point(265, 604);
             this.lbl_MensageDeBienvenida.Name = "lbl_MensageDeBienvenida";
-            this.lbl_MensageDeBienvenida.Size = new System.Drawing.Size(551, 25);
+            this.lbl_MensageDeBienvenida.Size = new System.Drawing.Size(269, 25);
             this.lbl_MensageDeBienvenida.TabIndex = 4;
-            this.lbl_MensageDeBienvenida.Text = "¡Bienvenido a EquipManage! Inicie sesión para acceder.";
+            this.lbl_MensageDeBienvenida.Text = "Inicie sesión para acceder.";
             this.lbl_MensageDeBienvenida.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_Ingresar
@@ -112,12 +113,22 @@
             this.btn_CerrarElPrograma.UseVisualStyleBackColor = true;
             this.btn_CerrarElPrograma.Click += new System.EventHandler(this.btn_CerrarElPrograma_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(320, 269);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(137, 25);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "¡Bienvenido! ";
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(786, 705);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_CerrarElPrograma);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_Ingresar);
@@ -146,6 +157,7 @@
         private System.Windows.Forms.Button btn_Ingresar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_CerrarElPrograma;
+        private System.Windows.Forms.Label label1;
     }
 }
 

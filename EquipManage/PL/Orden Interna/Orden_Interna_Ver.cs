@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EquipManage.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,8 +13,12 @@ namespace EquipManage.PL.Orden_Interna
 {
     public partial class Orden_Interna_Ver : Form
     {
+        Orden_InternaDAL oOrden_InternaDAL;
+
         public Orden_Interna_Ver()
         {
+            oOrden_InternaDAL = new Orden_InternaDAL();
+
             InitializeComponent();
         }
 
@@ -22,6 +27,20 @@ namespace EquipManage.PL.Orden_Interna
             Principal_Ver principal_Ver = new Principal_Ver();
             principal_Ver.Show();
             this.Close();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Orden_Interna_Ver_Load(object sender, EventArgs e)
+        {
+
+        }
+        public void LLenarGridIOT()
+        {
+            dgv_OI_Ver.DataSource = oOrden_InternaDAL.MostrarOI_Todo().Tables[0];
         }
     }
 }

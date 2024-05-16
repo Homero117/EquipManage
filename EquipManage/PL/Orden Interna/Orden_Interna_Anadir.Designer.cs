@@ -59,9 +59,9 @@
             this.lbl_LugarDeCalibracionMedicion = new System.Windows.Forms.Label();
             this.txt_LugarDeCalibracionMedicion = new System.Windows.Forms.TextBox();
             this.lbl_MensageObservacionesGenerales = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_ObservaG = new System.Windows.Forms.TextBox();
             this.btn_Siguiente_OI = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_IO = new System.Windows.Forms.DataGridView();
             this.btn_Agregar_OI = new System.Windows.Forms.Button();
             this.btn_Modificar_OI = new System.Windows.Forms.Button();
             this.lbl_DiasParaLaEntrega_OI = new System.Windows.Forms.Label();
@@ -70,7 +70,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btn_AgregarImagen = new System.Windows.Forms.Button();
             this.pic_Foto = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_IO)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Foto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -333,12 +333,12 @@
             this.lbl_MensageObservacionesGenerales.TabIndex = 30;
             this.lbl_MensageObservacionesGenerales.Text = "Observaciones Generales:";
             // 
-            // textBox2
+            // txt_ObservaG
             // 
-            this.textBox2.Location = new System.Drawing.Point(98, 1090);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(1415, 31);
-            this.textBox2.TabIndex = 31;
+            this.txt_ObservaG.Location = new System.Drawing.Point(98, 1090);
+            this.txt_ObservaG.Name = "txt_ObservaG";
+            this.txt_ObservaG.Size = new System.Drawing.Size(1415, 31);
+            this.txt_ObservaG.TabIndex = 31;
             // 
             // btn_Siguiente_OI
             // 
@@ -350,15 +350,18 @@
             this.btn_Siguiente_OI.UseVisualStyleBackColor = true;
             this.btn_Siguiente_OI.Click += new System.EventHandler(this.btn_Siguiente_OI_Click);
             // 
-            // dataGridView1
+            // dgv_IO
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(70, 1157);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1421, 378);
-            this.dataGridView1.TabIndex = 33;
+            this.dgv_IO.AllowUserToAddRows = false;
+            this.dgv_IO.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv_IO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_IO.Location = new System.Drawing.Point(70, 1157);
+            this.dgv_IO.Name = "dgv_IO";
+            this.dgv_IO.RowHeadersWidth = 82;
+            this.dgv_IO.RowTemplate.Height = 33;
+            this.dgv_IO.Size = new System.Drawing.Size(1421, 378);
+            this.dgv_IO.TabIndex = 33;
+            this.dgv_IO.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Seleccionar);
             // 
             // btn_Agregar_OI
             // 
@@ -368,6 +371,7 @@
             this.btn_Agregar_OI.TabIndex = 34;
             this.btn_Agregar_OI.Text = "Agregar";
             this.btn_Agregar_OI.UseVisualStyleBackColor = true;
+            this.btn_Agregar_OI.Click += new System.EventHandler(this.btn_Agregar_OI_Click);
             // 
             // btn_Modificar_OI
             // 
@@ -377,6 +381,7 @@
             this.btn_Modificar_OI.TabIndex = 35;
             this.btn_Modificar_OI.Text = "Modificar";
             this.btn_Modificar_OI.UseVisualStyleBackColor = true;
+            this.btn_Modificar_OI.Click += new System.EventHandler(this.btn_Modificar_OI_Click);
             // 
             // lbl_DiasParaLaEntrega_OI
             // 
@@ -414,6 +419,7 @@
             this.btn_AgregarImagen.TabIndex = 41;
             this.btn_AgregarImagen.Text = "Agregar Imagen";
             this.btn_AgregarImagen.UseVisualStyleBackColor = true;
+            this.btn_AgregarImagen.Click += new System.EventHandler(this.btn_AgregarImagen_Click);
             // 
             // pic_Foto
             // 
@@ -437,9 +443,9 @@
             this.Controls.Add(this.lbl_DiasParaLaEntrega_OI);
             this.Controls.Add(this.btn_Modificar_OI);
             this.Controls.Add(this.btn_Agregar_OI);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_IO);
             this.Controls.Add(this.btn_Siguiente_OI);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_ObservaG);
             this.Controls.Add(this.lbl_MensageObservacionesGenerales);
             this.Controls.Add(this.txt_LugarDeCalibracionMedicion);
             this.Controls.Add(this.lbl_LugarDeCalibracionMedicion);
@@ -476,7 +482,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Orden_Interna_Anadir";
             this.Load += new System.EventHandler(this.Orden_Interna_Anadir_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_IO)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Foto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -516,9 +522,9 @@
         private System.Windows.Forms.Label lbl_LugarDeCalibracionMedicion;
         private System.Windows.Forms.TextBox txt_LugarDeCalibracionMedicion;
         private System.Windows.Forms.Label lbl_MensageObservacionesGenerales;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_ObservaG;
         private System.Windows.Forms.Button btn_Siguiente_OI;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_IO;
         private System.Windows.Forms.Button btn_Agregar_OI;
         private System.Windows.Forms.Button btn_Modificar_OI;
         private System.Windows.Forms.Label lbl_DiasParaLaEntrega_OI;

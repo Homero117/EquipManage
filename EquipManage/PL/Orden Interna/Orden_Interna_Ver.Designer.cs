@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.OrdenesInternas_Ver = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_OI_Ver = new System.Windows.Forms.DataGridView();
             this.btnRegresar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_OI_Ver)).BeginInit();
             this.SuspendLayout();
             // 
             // OrdenesInternas_Ver
@@ -43,15 +43,16 @@
             this.OrdenesInternas_Ver.TabIndex = 1;
             this.OrdenesInternas_Ver.Text = "Ordenes Internas";
             // 
-            // dataGridView1
+            // dgv_OI_Ver
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(14, 166);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(2423, 1097);
-            this.dataGridView1.TabIndex = 2;
+            this.dgv_OI_Ver.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_OI_Ver.Location = new System.Drawing.Point(14, 166);
+            this.dgv_OI_Ver.Name = "dgv_OI_Ver";
+            this.dgv_OI_Ver.RowHeadersWidth = 82;
+            this.dgv_OI_Ver.RowTemplate.Height = 33;
+            this.dgv_OI_Ver.Size = new System.Drawing.Size(2423, 1097);
+            this.dgv_OI_Ver.TabIndex = 2;
+            this.dgv_OI_Ver.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnRegresar
             // 
@@ -71,11 +72,12 @@
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(2449, 1279);
             this.Controls.Add(this.btnRegresar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_OI_Ver);
             this.Controls.Add(this.OrdenesInternas_Ver);
             this.Name = "Orden_Interna_Ver";
             this.Text = "Orden_Interna_Ver";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Orden_Interna_Ver_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_OI_Ver)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -84,7 +86,7 @@
         #endregion
 
         private System.Windows.Forms.Label OrdenesInternas_Ver;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_OI_Ver;
         private System.Windows.Forms.Button btnRegresar;
     }
 }

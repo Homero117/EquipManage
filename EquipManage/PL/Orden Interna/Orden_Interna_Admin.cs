@@ -65,39 +65,37 @@ namespace EquipManage.PL.Orden_Interna
 
         private Orden_InternaBLL RecolectarDatos()
         {
-            Orden_InternaBLL objOrden_InternaBLL = new Orden_InternaBLL();
+            Orden_InternaBLL oOrden_InternaBLL = new Orden_InternaBLL();
 
             int NoIO = 1;
             int.TryParse(txt_NoDeOI.Text, out NoIO);
 
-            objOrden_InternaBLL.NoIO = NoIO;
-            objOrden_InternaBLL.NoRegistro_Asisgnado = txt_NoDeRegistroAsignado.Text;
-            objOrden_InternaBLL.FechaElaboracionIO = txt_FechaDeElaboracióndeOI.Text; 
+            oOrden_InternaBLL.NoIO = NoIO;
+            oOrden_InternaBLL.NoRegistro_Asisgnado = txt_NoDeRegistroAsignado.Text;
+            oOrden_InternaBLL.FechaElaboracionIO = txt_FechaDeElaboracióndeOI.Text; 
 
             int diasParaLaEntrega = 1;
             int.TryParse(txt_DiaParaLaEntrega_OI.Text, out diasParaLaEntrega);
-            objOrden_InternaBLL.DiasParaLaEntrega = diasParaLaEntrega;
+            oOrden_InternaBLL.DiasParaLaEntrega = diasParaLaEntrega;
 
-            objOrden_InternaBLL.Magnitud = txt_Magnitud.Text;
-            objOrden_InternaBLL.Fecha_Recepcion = txt_FechaDeRecepción.Text;
-            objOrden_InternaBLL.Fecha_Termino_Servicio = txt_FechaDeTérminoDeServicio.Text;
-            objOrden_InternaBLL.Vendedor = txt_Vendedor.Text;
-            objOrden_InternaBLL.ElaboroIO = txt_ElaboroOI.Text;
-            objOrden_InternaBLL.fotoEquipo = imagenByte;
-            objOrden_InternaBLL.NombreClienteE = txt_NombreCliente.Text;
-            objOrden_InternaBLL.DireccionClienteE = txt_DireccionClienteE.Text;
-            objOrden_InternaBLL.AtencionClienteE = txt_Atencion.Text;
-            objOrden_InternaBLL.Observaciones_GeneralesOI = txt_ObservaG.Text;
+            oOrden_InternaBLL.Magnitud = txt_Magnitud.Text;
+            oOrden_InternaBLL.Fecha_Recepcion = txt_FechaDeRecepción.Text;
+            oOrden_InternaBLL.Fecha_Termino_Servicio = txt_FechaDeTérminoDeServicio.Text;
+            oOrden_InternaBLL.Vendedor = txt_Vendedor.Text;
+            oOrden_InternaBLL.ElaboroIO = txt_ElaboroOI.Text;
+            oOrden_InternaBLL.fotoEquipo = imagenByte;
+            oOrden_InternaBLL.NombreClienteE = txt_NombreCliente.Text;
+            oOrden_InternaBLL.DireccionClienteE = txt_DireccionClienteE.Text;
+            oOrden_InternaBLL.AtencionClienteE = txt_Atencion.Text;
+            oOrden_InternaBLL.Observaciones_GeneralesOI = txt_ObservaG.Text;
 
-            return objOrden_InternaBLL;
+            return oOrden_InternaBLL;
 
 
         }
 
-        public void LLenarGridOI()
-        {
-            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarOI().Tables[0];
-
+        public void LLenarGridOI() { 
+        dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarAOI().Tables[0];
         }
 
         public void LimpiarTxt()
@@ -155,6 +153,20 @@ namespace EquipManage.PL.Orden_Interna
                 txt__SApellido.Text = dgv_Empleado.Rows[indice].Cells[3].Value.ToString();
                 txt_Correo.Text = dgv_Empleado.Rows[indice].Cells[4].Value.ToString();
                 */
+                txt_NoDeOI.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_NoDeRegistroAsignado.Text = dgv_OI_Admin.Rows[indice].Cells[1].Value.ToString();
+                txt_FechaDeElaboracióndeOI.Text = dgv_OI_Admin.Rows[indice].Cells[2].Value.ToString();
+                txt_Magnitud.Text = dgv_OI_Admin.Rows[indice].Cells[3].Value.ToString();
+                txt_FechaDeRecepción.Text = dgv_OI_Admin.Rows[indice].Cells[4].Value.ToString();
+                txt_FechaDeTérminoDeServicio.Text = dgv_OI_Admin.Rows[indice].Cells[5].Value.ToString();
+                txt_Vendedor.Text = dgv_OI_Admin.Rows[indice].Cells[6].Value.ToString();
+                txt_ElaboroOI.Text = dgv_OI_Admin.Rows[indice].Cells[7].Value.ToString();
+                txt_NombreCliente.Text = dgv_OI_Admin.Rows[indice].Cells[8].Value.ToString();
+                txt_DireccionClienteE.Text = dgv_OI_Admin.Rows[indice].Cells[9].Value.ToString();
+                txt_Atencion.Text = dgv_OI_Admin.Rows[indice].Cells[10].Value.ToString();
+                txt_ObservaG.Text = dgv_OI_Admin.Rows[indice].Cells[11].Value.ToString();
+                txt_DiaParaLaEntrega_OI.Text = dgv_OI_Admin.Rows[indice].Cells[12].Value.ToString();
+
 
                 object imagenCelda = dgv_OI_Admin.Rows[indice].Cells[5].Value;
                 if (imagenCelda != null && imagenCelda != DBNull.Value)
