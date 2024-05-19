@@ -3,72 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_anadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_anadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepcion_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepcion_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_anadir_tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_anadir_tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_anadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_anadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_admin_tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_admin_tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|c:\\users\\porti\\desktop\\proyectos visual studio\\equipmanage\\equipmanage\\dal\\orden_internadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\dal\\orden_internadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\dal\\conexiondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\dal\\conexiondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\dal\\recepciondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\dal\\recepciondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_anadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_anadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\dal\\conexiondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\dal\\conexiondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\bll\\orden_internabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\bll\\orden_internabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\bll\\recepcionbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\bll\\recepcionbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_admin_tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_admin_tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\bll\\orden_internabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\bll\\orden_internabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\principal_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\principal_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\seguridad\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -79,20 +55,32 @@
       "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\seguridad\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_anadir_tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_anadir_tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\principal_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\principal_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\principal_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\principal_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\resources\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\resources\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_anadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_anadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepcion_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepcion_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepci\u00F3n_entregadeequipos_items_anadir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepcion_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\recepci\u00F3n entrega de equipos items\\recepcion_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\equipmanage\\pl\\orden interna\\orden_interna_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{757BEE5C-27DC-4F96-A703-3C970AE07824}|EquipManage\\EquipManage.csproj|solutionrelative:equipmanage\\pl\\orden interna\\orden_interna_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,8 +98,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Orden_InternaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\DAL\\Orden_InternaDAL.cs",
+              "RelativeDocumentMoniker": "EquipManage\\DAL\\Orden_InternaDAL.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\DAL\\Orden_InternaDAL.cs",
+              "RelativeToolTip": "EquipManage\\DAL\\Orden_InternaDAL.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAAAXBAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T18:38:15.205Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -126,216 +124,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Orden_Interna_Ver.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs [Dise\u00F1o]",
-              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T03:09:09.19Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T04:16:49.299Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Recepcion_Ver.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs [Dise\u00F1o]",
-              "RelativeToolTip": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T05:53:58.57Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs [Dise\u00F1o]",
-              "RelativeToolTip": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T05:21:09.734Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Orden_Interna_Anadir_Tabla.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir_Tabla.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir_Tabla.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir_Tabla.cs [Dise\u00F1o]",
-              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir_Tabla.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T13:55:50.702Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Orden_Interna_Anadir.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir.cs [Dise\u00F1o]",
-              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T03:16:20.408Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Orden_Interna_Admin_Tabla.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin_Tabla.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin_Tabla.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin_Tabla.cs [Dise\u00F1o]",
-              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin_Tabla.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T03:03:46.696Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Orden_Interna_Admin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T03:16:16.485Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Orden_InternaDAL.cs",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\DAL\\Orden_InternaDAL.cs",
-              "RelativeDocumentMoniker": "EquipManage\\DAL\\Orden_InternaDAL.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\DAL\\Orden_InternaDAL.cs",
-              "RelativeToolTip": "EquipManage\\DAL\\Orden_InternaDAL.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAkwC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T18:38:15.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Orden_Interna_Admin.cs",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs",
               "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs",
               "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs",
               "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAD4v2kAAAAjAAAA",
+              "ViewState": "AQIAAKcAAAAAAAAAAAA9wLEAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T04:25:58.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "RecepcionDAL.cs",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\DAL\\RecepcionDAL.cs",
               "RelativeDocumentMoniker": "EquipManage\\DAL\\RecepcionDAL.cs",
               "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\DAL\\RecepcionDAL.cs",
               "RelativeToolTip": "EquipManage\\DAL\\RecepcionDAL.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T04:22:59.298Z"
+              "WhenOpened": "2024-05-11T04:22:59.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "Orden_Interna_Admin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs",
+              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T02:00:41.268Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ConexionDAL.cs",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\DAL\\ConexionDAL.cs",
               "RelativeDocumentMoniker": "EquipManage\\DAL\\ConexionDAL.cs",
               "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\DAL\\ConexionDAL.cs",
               "RelativeToolTip": "EquipManage\\DAL\\ConexionDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABQAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:12:01.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Orden_Interna_Anadir.cs",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir.cs",
-              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir.cs",
-              "ViewState": "AQIAAMgAAAAAAAAAAAAjwNsAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T08:53:09.481Z",
+              "WhenOpened": "2024-05-13T14:12:01.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Orden_InternaBLL.cs",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\bll\\Orden_InternaBLL.cs",
-              "RelativeDocumentMoniker": "EquipManage\\bll\\Orden_InternaBLL.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\bll\\Orden_InternaBLL.cs",
-              "RelativeToolTip": "EquipManage\\bll\\Orden_InternaBLL.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAowBIAAAAyAAAA",
+              "DocumentIndex": 5,
+              "Title": "Orden_Interna_Ver.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
+              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T21:30:51.567Z"
+              "WhenOpened": "2024-05-11T03:09:09.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "RecepcionBLL.cs",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\bll\\RecepcionBLL.cs",
               "RelativeDocumentMoniker": "EquipManage\\bll\\RecepcionBLL.cs",
               "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\bll\\RecepcionBLL.cs",
               "RelativeToolTip": "EquipManage\\bll\\RecepcionBLL.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA/wB8AAAABAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T05:49:58.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Orden_Interna_Admin_Tabla.cs",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin_Tabla.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin_Tabla.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin_Tabla.cs",
-              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Admin_Tabla.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "Orden_InternaBLL.cs",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\bll\\Orden_InternaBLL.cs",
+              "RelativeDocumentMoniker": "EquipManage\\bll\\Orden_InternaBLL.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\bll\\Orden_InternaBLL.cs",
+              "RelativeToolTip": "EquipManage\\bll\\Orden_InternaBLL.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA9wC4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T08:13:43.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T21:30:51.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs",
               "RelativeDocumentMoniker": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs",
               "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs",
               "RelativeToolTip": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs",
-              "ViewState": "AQIAALMAAAAAAAAAAAAAAEQAAAAMAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwEQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T04:22:24.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T04:22:24.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Principal.cs",
+              "RelativeDocumentMoniker": "EquipManage\\PL\\Principal.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Principal.cs",
+              "RelativeToolTip": "EquipManage\\PL\\Principal.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAewCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T06:46:01.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\Seguridad\\login.cs",
               "RelativeDocumentMoniker": "EquipManage\\Seguridad\\login.cs",
@@ -346,43 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\Seguridad\\login.cs",
-              "RelativeDocumentMoniker": "EquipManage\\Seguridad\\login.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\Seguridad\\login.cs",
-              "RelativeToolTip": "EquipManage\\Seguridad\\login.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAArwCMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T13:37:57.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Principal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Principal.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Principal.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Principal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "EquipManage\\PL\\Principal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T04:35:50.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Orden_Interna_Anadir_Tabla.cs",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir_Tabla.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir_Tabla.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir_Tabla.cs",
-              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Anadir_Tabla.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAowHgAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T03:04:12.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 10,
               "Title": "Principal_Admin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Principal_Admin.cs",
               "RelativeDocumentMoniker": "EquipManage\\PL\\Principal_Admin.cs",
@@ -393,7 +256,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\Seguridad\\login.cs",
+              "RelativeDocumentMoniker": "EquipManage\\Seguridad\\login.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\Seguridad\\login.cs",
+              "RelativeToolTip": "EquipManage\\Seguridad\\login.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T13:37:57.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs",
+              "RelativeDocumentMoniker": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Admin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T04:16:49.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Principal.cs",
+              "RelativeDocumentMoniker": "EquipManage\\PL\\Principal.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EquipManage\\PL\\Principal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T04:35:50.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Principal_Ver.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Principal_Ver.cs",
               "RelativeDocumentMoniker": "EquipManage\\PL\\Principal_Ver.cs",
@@ -404,7 +301,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 16,
+              "Title": "logo.png",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\Resources\\logo.png",
+              "RelativeDocumentMoniker": "EquipManage\\Resources\\logo.png",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\Resources\\logo.png",
+              "RelativeToolTip": "EquipManage\\Resources\\logo.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-16T15:49:18.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Orden_Interna_Ver.cs",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
+              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
+              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T03:12:20.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs",
+              "RelativeDocumentMoniker": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T05:21:09.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Recepcion_Ver.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs",
+              "RelativeDocumentMoniker": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs",
+              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T05:53:58.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs",
               "RelativeDocumentMoniker": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs",
@@ -412,12 +354,11 @@
               "RelativeToolTip": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepci\u00F3n_EntregaDeEquipos_ITEMS_Anadir.cs",
               "ViewState": "AQIAAFgAAAAAAAAAAAAkwKcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T05:25:00.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T05:25:00.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "Recepcion_Ver.cs",
               "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs",
               "RelativeDocumentMoniker": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs",
@@ -425,21 +366,7 @@
               "RelativeToolTip": "EquipManage\\PL\\Recepci\u00F3n Entrega de Equipos ITEMS\\Recepcion_Ver.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAgwBIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T07:16:37.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Orden_Interna_Ver.cs",
-              "DocumentMoniker": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
-              "RelativeDocumentMoniker": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
-              "ToolTip": "C:\\Users\\porti\\Desktop\\Proyectos Visual Studio\\EquipManage\\EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
-              "RelativeToolTip": "EquipManage\\PL\\Orden Interna\\Orden_Interna_Ver.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBMAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T03:12:20.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T07:16:37.018Z"
             }
           ]
         }

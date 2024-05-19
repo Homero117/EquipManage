@@ -84,6 +84,7 @@
             this.Controls.Add(this.btn_OrdenInterna);
             this.Controls.Add(this.btn_EntregaDeEquipos);
             this.Name = "Principal_Admin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal_Admin";
             this.ResumeLayout(false);
             this.PerformLayout();

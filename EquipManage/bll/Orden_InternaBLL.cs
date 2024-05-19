@@ -14,7 +14,7 @@ namespace EquipManage.BLL
         public string Vendedor { get; set; }
         public string ElaboroIO { get; set; }
         public int NoIO { get; set; }
-        public string NoRegistro_Asisgnado { get; set; }
+        public int NoRegistro_Asisgnado { get; set; }
         public string FechaElaboracionIO { get; set; }
         public string NombreClienteE { get; set; }
         public string DireccionClienteE { get; set; }
@@ -44,6 +44,6 @@ namespace EquipManage.BLL
         public int DiasParaLaEntrega { get; set; }
         public byte[] fotoEquipo { get; set; }
         public int NoIOT { get; set; }
-        public string NoIngresoT { get; set; }
+        public int NoIngresoT { get; set; }
     }
 }

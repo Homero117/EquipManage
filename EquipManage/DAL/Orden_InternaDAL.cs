@@ -18,75 +18,104 @@ namespace EquipManage.DAL
             conexionDAL = new ConexionDAL();
         }
 
-        public bool AgregarOI(Orden_InternaBLL oOrden_InternaBLL) {
-
-
-            return conexionDAL.EjecutarComandoSinRetornoDatos("INSERT INTO ORDENINTERNA (numeroOrden_OI, numIngreso_OI, NumRegistro_OI, observaciones_OI, FechaRecepcion_OI, FechaTermino_OI, FechaElavoracion_OI, Magnitud, DiasFaltantes_OI, idEmpleado, idVendedor)\r\nVALUES (\r\n    @NoIO,\r\n    'valor_para_numIngreso_OI', -- Asumiendo que este valor lo obtienes de alguna manera\r\n    @NoRegistro_Asisgnado,\r\n    @Observaciones_GeneralesOI,\r\n    @FechaElaboracionIO,\r\n    @Fecha_Recepcion,\r\n    @Fecha_Termino_Servicio,\r\n    (SELECT Magnitud FROM EQUIPO WHERE idEquipo = @idEquipo), -- Obtener la magnitud del equipo usando su id\r\n    @DiasParaLaEntrega,\r\n    (SELECT idEmpleado FROM EMPLEADO WHERE NombreCompleto = @ElaboroIO), -- Obtener el id del empleado usando su nombre completo\r\n    (SELECT idVendedor FROM VENDEDOR WHERE NOMBRE = @Vendedor) -- Obtener el id del vendedor usando su nombre\r\n);\r\n\r\n-- Insertar en la tabla CLIENTE\r\nINSERT INTO CLIENTE (NombreEmpresa, Direccion, atencion)\r\nVALUES (\r\n    @NombreClienteE,\r\n    @DireccionClienteE,\r\n    @AtencionClienteE\r\n);\r\n\r\n-- Insertar en la tabla DETALLEORDEN\r\nINSERT INTO DETALLEORDEN (idEquipo, idCliente, numeroOrden_OI)\r\nVALUES (\r\n    @idEquipo,\r\n    (SELECT idCliente FROM CLIENTE WHERE NombreEmpresa = @NombreClienteE), -- Obtener el id del cliente usando el nombre de la empresa\r\n    @NoIO\r\n);");
-        }
-
-        public bool ModificarOI(Orden_InternaBLL oOrden_InternaBLL)
+        public bool AgregarOIClente(Orden_InternaBLL oOrden_InternaBLL)
         {
 
-            SqlCommand sqlCommand = new SqlCommand("");
 
-            // Campos de la BD
-
-            return conexionDAL.EjecutarComandoSinRetornoDatos(sqlCommand);
+            return conexionDAL.EjecutarComandoSinRetornoDatos("insert into Cliente (Id_Cliente, Nombre, Direccion, Atencion) values (" + oOrden_InternaBLL.NoIO + ",'" + oOrden_InternaBLL.NombreClienteE + "', '" + oOrden_InternaBLL.DireccionClienteE + "', '" + oOrden_InternaBLL.AtencionClienteE + "'); ");
+            //  "insert into Equipo (Id_Equipo, No_Ingreso, Tipo_Servicio, Nombre_Equipo, Marca, Codigo_Fabricante, Num_Serie, Identificacion, Intervalo, Resolucion, Grado_ClaseEscala, Accesorios, Observaciones, Material, No_Parte, No_Plano, No_Cotas, No_Piezas, Id_Foto, Id_Cliente) values (" + oOrden_InternaBLL.NoIOT + ", " + oOrden_InternaBLL.NoIngresoT + ", '" + oOrden_InternaBLL.TipoServicio + "', '" + oOrden_InternaBLL.Equipo + "', '" + oOrden_InternaBLL.Marca_Modelo + "', '" + oOrden_InternaBLL.CodFabricante + "', '" + oOrden_InternaBLL.Serie + "', '" + oOrden_InternaBLL.Identificador + "', '" + oOrden_InternaBLL.Intervalo + "', '" + oOrden_InternaBLL.Resolucion + "', '" + oOrden_InternaBLL.GradoClaseEscala + "', '" + oOrden_InternaBLL.AccesoriosOI + "', '" + oOrden_InternaBLL.ObservacionesOI + "', '" + oOrden_InternaBLL.Material + "', '" + oOrden_InternaBLL.NoParteOI + "', '" + oOrden_InternaBLL.NoPlano + "', '" + oOrden_InternaBLL.NoColas + "', '" + oOrden_InternaBLL.NoPiezas + "', " + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoIO + "); " +
+            // " insert into Fotos (Id_Foto, Foto) values (" + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.fotoEquipo + ");  " +
+            //  " insert into Empleado (Id_Empleado, Nombre) values (" + oOrden_InternaBLL.NoIO + ", '" + oOrden_InternaBLL.ElaboroIO + "');  " +
+            // " insert into Vendedor (Id_Vendedor, Nombre) values (" + oOrden_InternaBLL.NoIO + ", '" + oOrden_InternaBLL.Vendedor + "');  " +
+            // " insert into Orden_Interna (Id_OrdenInterna, No_Registros_Asignados, Fecha_ElaboracionOI, Magnitud, Fecha_Recepcion, Fecha_TerminoServicio, Id_Vendedor, Id_Empleado, Dias_Para_Entrega) values(" + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoRegistro_Asisgnado + ", '" + oOrden_InternaBLL.FechaElaboracionIO + "', '" + oOrden_InternaBLL.Magnitud + "', '" + oOrden_InternaBLL.Fecha_Recepcion + "', '" + oOrden_InternaBLL.Fecha_Termino_Servicio + "', " + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.DiasParaLaEntrega + "); " +
+            // " insert into Detalle_Orden (Id_Detalle, Id_Equipo, Id_Cliente, Id_OrdenInterna, Fecha_Recepcion) values (" + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoIO + ", '" + oOrden_InternaBLL.Fecha_Recepcion + "');");
+        }
+        public bool AgregarFoto(Orden_InternaBLL oOrden_InternaBLL) {
+            return conexionDAL.EjecutarComandoSinRetornoDatos(" insert into Fotos (Id_Foto, Foto) values (" + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.fotoEquipo + "); "  );        
+        
         }
 
-        public bool EliminarOI(Orden_InternaBLL oOrden_InternaBLL)
+        public bool AgregarEquipo(Orden_InternaBLL oOrden_InternaBLL)
         {
+            return conexionDAL.EjecutarComandoSinRetornoDatos("insert into Equipo (Id_Equipo, No_Ingreso, Tipo_Servicio, Nombre_Equipo, Marca, Codigo_Fabricante, Num_Serie, Identificacion, Intervalo, Resolucion, Grado_ClaseEscala, Accesorios, Observaciones, Material, No_Parte, No_Plano, No_Cotas, No_Piezas, Id_Foto, Id_Cliente) values (" + oOrden_InternaBLL.NoIOT + ", " + oOrden_InternaBLL.NoIngresoT + ", '" + oOrden_InternaBLL.TipoServicio + "', '" + oOrden_InternaBLL.Equipo + "', '" + oOrden_InternaBLL.Marca_Modelo + "', '" + oOrden_InternaBLL.CodFabricante + "', '" + oOrden_InternaBLL.Serie + "', '" + oOrden_InternaBLL.Identificador + "', '" + oOrden_InternaBLL.Intervalo + "', '" + oOrden_InternaBLL.Resolucion + "', '" + oOrden_InternaBLL.GradoClaseEscala + "', '" + oOrden_InternaBLL.AccesoriosOI + "', '" + oOrden_InternaBLL.ObservacionesOI + "', '" + oOrden_InternaBLL.Material + "', '" + oOrden_InternaBLL.NoParteOI + "', '" + oOrden_InternaBLL.NoPlano + "', '" + oOrden_InternaBLL.NoColas + "', '" + oOrden_InternaBLL.NoPiezas + "', " + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoIO + "); ");
 
-            SqlCommand sqlCommand = new SqlCommand("");
-
-            // Campos de la BD
-
-            return conexionDAL.EjecutarComandoSinRetornoDatos(sqlCommand);
         }
 
-        public DataSet MostrarAOI()
+
+        public bool AgregarOrden_Interna(Orden_InternaBLL oOrden_InternaBLL)
         {
-            SqlCommand sentencia = new SqlCommand("SELECT     oi.numeroOrden_OI AS 'NoIO',    oi.NumRegistro_OI AS 'NoRegistro_Asisgnado',   oi.FechaElavoracion_OI AS 'FechaElaboracionIO',    oi.DiasFaltantes_OI AS 'DiasParaLaEntrega',    e.Magnitud AS 'Magnitud',   oi.FechaRecepcion_OI AS 'Fecha_Recepcion',   oi.FechaTermino_OI AS 'Fecha_Termino_Servicio',    v.NOMBRE AS 'Vendedor',    emp.NombreCompleto AS 'ElaboroIO',   f.Foto1 AS 'fotoEquipo',    c.NombreEmpresa AS 'NombreClienteE',   c.Direccion AS 'DireccionClienteE',    c.atencion AS 'AtencionClienteE',    oi.observaciones_OI AS 'Observaciones_GeneralesOI' FROM    ORDENINTERNA oi     INNER JOIN EQUIPO e ON oi.Magnitud = e.Magnitud -- Asumiendo que se relacionan por el campo Magnitud    INNER JOIN VENDEDOR v ON oi.idVendedor = v.idVendedor    INNER JOIN EMPLEADO emp ON oi.idEmpleado = emp.idEmpleado   INNER JOIN CLIENTE c ON c.idCliente = (SELECT idCliente FROM DETALLEORDEN WHERE numeroOrden_OI = oi.numeroOrden_OI) -- Obteniendo el idCliente relacionado a través de DETALLEORDEN   INNER JOIN FOTOS f ON f.idFotos = (SELECT idFotos FROM DETALLE WHERE idEquipo = e.idEquipo) -- Obteniendo las fotos del equipo");
+            return conexionDAL.EjecutarComandoSinRetornoDatos(" insert into Orden_Interna (Id_OrdenInterna, No_Registros_Asignados, Fecha_ElaboracionOI, Magnitud, Fecha_Recepcion, Fecha_TerminoServicio, Id_Vendedor, Id_Empleado, Dias_Para_Entrega) values(" + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoRegistro_Asisgnado + ", '" + oOrden_InternaBLL.FechaElaboracionIO + "', '" + oOrden_InternaBLL.Magnitud + "', '" + oOrden_InternaBLL.Fecha_Recepcion + "', '" + oOrden_InternaBLL.Fecha_Termino_Servicio + "', 1, 1, " + oOrden_InternaBLL.DiasParaLaEntrega + "); " );
+
+        }
+
+
+
+        public bool ModificarCliente(Orden_InternaBLL oOrden_InternaBLL)
+        {
+
+            return conexionDAL.EjecutarComandoSinRetornoDatos("UPDATE Cliente SET Nombre = '"+oOrden_InternaBLL.NombreClienteE+"', Direccion = '"+oOrden_InternaBLL.DireccionClienteE+"', Atencion = '"+oOrden_InternaBLL.AtencionClienteE+"' WHERE Id_Cliente = "+oOrden_InternaBLL.NoIO+";");
+
+        }
+
+        public bool ModificarEquipo(Orden_InternaBLL oOrden_InternaBLL)
+        {
+
+            return conexionDAL.EjecutarComandoSinRetornoDatos("UPDATE Equipo SET No_Ingreso = "+oOrden_InternaBLL.NoIngresoT+", Tipo_Servicio = '"+oOrden_InternaBLL.TipoServicio+"', Nombre_Equipo = '"+oOrden_InternaBLL.Equipo+"', Marca = '"+oOrden_InternaBLL.Marca_Modelo+"', Codigo_Fabricante = '"+oOrden_InternaBLL.CodFabricante+"', Num_Serie = '"+oOrden_InternaBLL.Serie+"', Identificacion = '"+oOrden_InternaBLL.Identificador+"', Intervalo = '"+oOrden_InternaBLL.Intervalo+"', Resolucion = '"+oOrden_InternaBLL.Resolucion+"', Grado_ClaseEscala = '"+oOrden_InternaBLL.GradoClaseEscala+"', Accesorios = '"+oOrden_InternaBLL.AccesoriosOI+"', Observaciones = '"+oOrden_InternaBLL.ObservacionesOI+"', Material = '"+oOrden_InternaBLL.Material+"', No_Parte = '"+oOrden_InternaBLL.NoParteOI+"', No_Plano = '"+oOrden_InternaBLL.NoPlano+"', No_Cotas = '"+oOrden_InternaBLL.NoColas+"', No_Piezas = '"+oOrden_InternaBLL.NoPiezas+"', Id_Foto = "+oOrden_InternaBLL.NoIO+", Id_Cliente = "+oOrden_InternaBLL.NoIO+" WHERE Id_Equipo =  "+oOrden_InternaBLL.NoIOT+";");
+
+        }
+
+
+        public bool ModificarOrden(Orden_InternaBLL oOrden_InternaBLL)
+        {
+
+            return conexionDAL.EjecutarComandoSinRetornoDatos("UPDATE Orden_Interna SET No_Registros_Asignados = "+oOrden_InternaBLL.NoRegistro_Asisgnado+",     Fecha_ElaboracionOI = '"+oOrden_InternaBLL.FechaElaboracionIO+"',    Magnitud = '"+oOrden_InternaBLL.Magnitud+"',     Fecha_Recepcion = '"+oOrden_InternaBLL.Fecha_Recepcion+"',     Fecha_TerminoServicio = '"+oOrden_InternaBLL.Fecha_Termino_Servicio+"',     Id_Vendedor = 1,    Id_Empleado = 1,    Dias_Para_Entrega = "+oOrden_InternaBLL.DiasParaLaEntrega+" WHERE Id_OrdenInterna = "+oOrden_InternaBLL.NoIO+";");
+
+        }
+
+        public bool EliminarCliente(Orden_InternaBLL oOrden_InternaBLL)
+        {
+
+            return conexionDAL.EjecutarComandoSinRetornoDatos("DELETE FROM Cliente WHERE Id_Cliente = "+oOrden_InternaBLL.NoIO+";");
+        }
+
+        public bool EliminarEquipo(Orden_InternaBLL oOrden_InternaBLL)
+        {
+
+            return conexionDAL.EjecutarComandoSinRetornoDatos("DELETE FROM Equipo WHERE Id_Equipo = " + oOrden_InternaBLL.NoIOT + ";");
+        }
+
+        public bool EliminarOrden(Orden_InternaBLL oOrden_InternaBLL)
+        {
+
+            return conexionDAL.EjecutarComandoSinRetornoDatos("DELETE FROM Orden_Interna WHERE Id_OrdenInterna = " + oOrden_InternaBLL.NoIO + ";");
+        }
+
+
+
+        public DataSet MostrarCliente()
+        {
+            SqlCommand sentencia = new SqlCommand("SELECT * FROM Cliente;");
             return conexionDAL.EjecutarSentencia(sentencia);
         }
 
-
-        //tabla
-        public bool AgregarOI_Tabla(Orden_InternaBLL oOrden_InternaBLL)
+        public DataSet MostrarEquipo()
         {
-
-            SqlCommand sqlCommand = new SqlCommand("");
-
-            // Campos de la BD
-
-            return conexionDAL.EjecutarComandoSinRetornoDatos(sqlCommand);
-        }
-
-        public bool ModificarOI_Tabla(Orden_InternaBLL oOrden_InternaBLL)
-        {
-
-            SqlCommand sqlCommand = new SqlCommand("");
-
-            // Campos de la BD
-
-            return conexionDAL.EjecutarComandoSinRetornoDatos(sqlCommand);
-        }
-
-        public bool EliminarOI_Tabla (Orden_InternaBLL oOrden_InternaBLL)
-        {
-
-            SqlCommand sqlCommand = new SqlCommand("");
-
-            // Campos de la BD
-
-            return conexionDAL.EjecutarComandoSinRetornoDatos(sqlCommand);
-        }
-
-        public DataSet MostrarOI_Tabla()
-        {
-            SqlCommand sentencia = new SqlCommand("SELECT * FROM ???");
+            SqlCommand sentencia = new SqlCommand("SELECT * FROM Equipo;");
             return conexionDAL.EjecutarSentencia(sentencia);
         }
+
+        public DataSet MostrarFoto()
+        {
+            SqlCommand sentencia = new SqlCommand("SELECT * FROM Fotos;");
+            return conexionDAL.EjecutarSentencia(sentencia);
+        }
+
+        public DataSet MostrarOrden()
+        {
+            SqlCommand sentencia = new SqlCommand("SELECT * FROM Orden_Interna;");
+            return conexionDAL.EjecutarSentencia(sentencia);
+        }
+
 
 
         public DataSet MostrarOI_Todo()

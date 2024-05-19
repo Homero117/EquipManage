@@ -35,8 +35,7 @@ namespace EquipManage.PL.Orden_Interna
 
         private void btn_Siguiente_OI_Click(object sender, EventArgs e)
         {
-            Orden_Interna_Admin_Tabla orden_Interna_Admin_Tabla = new Orden_Interna_Admin_Tabla();
-            orden_Interna_Admin_Tabla.Show();
+  
         }
 
         private void Orden_Interna_Admin_Load(object sender, EventArgs e)
@@ -61,6 +60,8 @@ namespace EquipManage.PL.Orden_Interna
 
                 imagenByte = memory.ToArray();
             }
+
+
         }
 
         private Orden_InternaBLL RecolectarDatos()
@@ -71,7 +72,9 @@ namespace EquipManage.PL.Orden_Interna
             int.TryParse(txt_NoDeOI.Text, out NoIO);
 
             oOrden_InternaBLL.NoIO = NoIO;
-            oOrden_InternaBLL.NoRegistro_Asisgnado = txt_NoDeRegistroAsignado.Text;
+            int NRA = 1;
+            int.TryParse(txt_NoDeRegistroAsignado.Text, out NRA);
+            oOrden_InternaBLL.NoRegistro_Asisgnado = NRA;
             oOrden_InternaBLL.FechaElaboracionIO = txt_FechaDeElaboracióndeOI.Text; 
 
             int diasParaLaEntrega = 1;
@@ -81,13 +84,35 @@ namespace EquipManage.PL.Orden_Interna
             oOrden_InternaBLL.Magnitud = txt_Magnitud.Text;
             oOrden_InternaBLL.Fecha_Recepcion = txt_FechaDeRecepción.Text;
             oOrden_InternaBLL.Fecha_Termino_Servicio = txt_FechaDeTérminoDeServicio.Text;
-            oOrden_InternaBLL.Vendedor = txt_Vendedor.Text;
-            oOrden_InternaBLL.ElaboroIO = txt_ElaboroOI.Text;
+                        
             oOrden_InternaBLL.fotoEquipo = imagenByte;
             oOrden_InternaBLL.NombreClienteE = txt_NombreCliente.Text;
             oOrden_InternaBLL.DireccionClienteE = txt_DireccionClienteE.Text;
             oOrden_InternaBLL.AtencionClienteE = txt_Atencion.Text;
-            oOrden_InternaBLL.Observaciones_GeneralesOI = txt_ObservaG.Text;
+
+            int NoT = 1;
+            int.TryParse(txt_No_OIT.Text, out NoT);
+            oOrden_InternaBLL.NoIOT = NoT;
+            int NIDT = 1;
+            int.TryParse(lbl_NoDeIngreso_OIT.Text, out NIDT);
+            oOrden_InternaBLL.NoIngresoT = NIDT;
+            oOrden_InternaBLL.CertificadoInforme = txt_CertificadoInforme_OIT.Text;
+            oOrden_InternaBLL.TipoServicio = txt_TipoServicio_OIT.Text;
+            oOrden_InternaBLL.Equipo = txt_Equipo_OIT.Text;
+            oOrden_InternaBLL.Marca_Modelo = txt_Marca_OIT.Text;
+            oOrden_InternaBLL.CodFabricante = txt_CodF_OIT.Text;
+            oOrden_InternaBLL.Serie = txt_Serie_OIT.Text;
+            oOrden_InternaBLL.Identificador = txt_Identificacion_OIT.Text;
+            oOrden_InternaBLL.Intervalo = txt_Intervalo_OIT.Text;
+            oOrden_InternaBLL.Resolucion = txt_Resolucion_OIT.Text;
+            oOrden_InternaBLL.GradoClaseEscala = txt_Grado_OIT.Text;
+            oOrden_InternaBLL.AccesoriosOI = txt_Accesiorios_OIT.Text;
+            oOrden_InternaBLL.ObservacionesOI = txt_Observaciones_OIT.Text;
+            oOrden_InternaBLL.Material = txt_Material_OIT.Text;
+            oOrden_InternaBLL.NoParteOI = txt_NoParte_OIT.Text;
+            oOrden_InternaBLL.NoPlano = txt_NoPlano_OIT.Text;
+            oOrden_InternaBLL.NoColas = txt_NoCotas_OIT.Text;
+            oOrden_InternaBLL.NoPiezas = txt_NoPiezas_OIT.Text;
 
             return oOrden_InternaBLL;
 
@@ -95,7 +120,7 @@ namespace EquipManage.PL.Orden_Interna
         }
 
         public void LLenarGridOI() { 
-        dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarAOI().Tables[0];
+        dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarEquipo().Tables[0];
         }
 
         public void LimpiarTxt()
@@ -106,19 +131,36 @@ namespace EquipManage.PL.Orden_Interna
             txt_Magnitud.Text = "";
             txt_FechaDeRecepción.Text = "";
             txt_FechaDeTérminoDeServicio.Text = "";
-            txt_Vendedor.Text = "";
-            txt_ElaboroOI.Text = "";
-            imagenByte = null;
+                      
+
             txt_NombreCliente.Text = "";
             txt_DireccionClienteE.Text = "";
             txt_Atencion.Text = "";
-            txt_ObservaG.Text = "";
             txt_DiaParaLaEntrega_OI.Text = "";
 
-            btn_Agregar_OI_Admin.Enabled = true;
-            btn_Borrar_OI_Admin.Enabled = false;
-            btn_Modificar_OI_Admin.Enabled = false;
-            btn_Cancelar_IO_Admin.Enabled = false;
+            //Equipo
+            txt_No_OIT.Text = "";
+            txt_NoDeIngreso_OIT.Text = "";
+            txt_CertificadoInforme_OIT.Text = "";
+            txt_TipoServicio_OIT.Text = "";
+            txt_Equipo_OIT.Text = "";
+            txt_Marca_OIT.Text = "";
+            txt_CodF_OIT.Text = "";
+            txt_Serie_OIT.Text = "";
+            txt_Identificacion_OIT.Text = "";
+            txt_Intervalo_OIT.Text = "";
+            txt_Resolucion_OIT.Text = "";
+            txt_Grado_OIT.Text = "";
+            txt_Accesiorios_OIT.Text = "";
+            txt_Observaciones_OIT.Text = "";
+            txt_Material_OIT.Text = "";
+            txt_NoParte_OIT.Text = "";
+            txt_NoPlano_OIT.Text = "";
+            txt_NoCotas_OIT.Text = "";
+            txt_NoPiezas_OIT.Text = "";
+
+
+
 
 
         }
@@ -159,16 +201,34 @@ namespace EquipManage.PL.Orden_Interna
                 txt_Magnitud.Text = dgv_OI_Admin.Rows[indice].Cells[3].Value.ToString();
                 txt_FechaDeRecepción.Text = dgv_OI_Admin.Rows[indice].Cells[4].Value.ToString();
                 txt_FechaDeTérminoDeServicio.Text = dgv_OI_Admin.Rows[indice].Cells[5].Value.ToString();
-                txt_Vendedor.Text = dgv_OI_Admin.Rows[indice].Cells[6].Value.ToString();
-                txt_ElaboroOI.Text = dgv_OI_Admin.Rows[indice].Cells[7].Value.ToString();
+ 
                 txt_NombreCliente.Text = dgv_OI_Admin.Rows[indice].Cells[8].Value.ToString();
                 txt_DireccionClienteE.Text = dgv_OI_Admin.Rows[indice].Cells[9].Value.ToString();
                 txt_Atencion.Text = dgv_OI_Admin.Rows[indice].Cells[10].Value.ToString();
-                txt_ObservaG.Text = dgv_OI_Admin.Rows[indice].Cells[11].Value.ToString();
                 txt_DiaParaLaEntrega_OI.Text = dgv_OI_Admin.Rows[indice].Cells[12].Value.ToString();
 
 
-                object imagenCelda = dgv_OI_Admin.Rows[indice].Cells[5].Value;
+                txt_No_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_NoDeIngreso_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_CertificadoInforme_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_TipoServicio_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Equipo_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Marca_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_CodF_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Serie_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Identificacion_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Intervalo_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Resolucion_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Grado_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Accesiorios_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Observaciones_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_Material_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_NoParte_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_NoPlano_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_NoCotas_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+                txt_NoPiezas_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
+
+              /*  object imagenCelda = dgv_OI_Admin.Rows[indice].Cells[5].Value;
                 if (imagenCelda != null && imagenCelda != DBNull.Value)
                 {
                     byte[] imageData = (byte[])imagenCelda;
@@ -181,33 +241,107 @@ namespace EquipManage.PL.Orden_Interna
                 {
                     pic_Foto.Image = null;
                 }
+              */
 
-                btn_Agregar_OI_Admin.Enabled = false;
-                btn_Borrar_OI_Admin.Enabled = true;
-                btn_Cancelar_IO_Admin.Enabled = true;
-                btn_Modificar_OI_Admin.Enabled = true;
             }
         }
 
         private void btn_Agregar_OI_Admin_Click(object sender, EventArgs e)
         {
-            oOrden_InternaDAL.AgregarOI(RecolectarDatos());
-            LLenarGridOI();
-            LimpiarTxt();
+            oOrden_InternaDAL.AgregarOIClente(RecolectarDatos());
+            oOrden_InternaDAL.AgregarEquipo(RecolectarDatos());
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarEquipo().Tables[0];
+
+            //LimpiarTxt();
         }
 
         private void btn_Modificar_OI_Admin_Click(object sender, EventArgs e)
         {
-            oOrden_InternaDAL.ModificarOI(RecolectarDatos());
-            LLenarGridOI();
-            LimpiarTxt();
+           
+            oOrden_InternaDAL.ModificarEquipo(RecolectarDatos());
+            // oOrden_InternaDAL.ModificarIO(RecolectarDatos());
+
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarEquipo().Tables[0];
+
         }
 
         private void btn_Borrar_OI_Admin_Click(object sender, EventArgs e)
         {
-            oOrden_InternaDAL.EliminarOI(RecolectarDatos());
-            LLenarGridOI();
-            LimpiarTxt();
+            oOrden_InternaDAL.EliminarEquipo(RecolectarDatos());
+                        dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarEquipo().Tables[0];
+
+        }
+
+        private void txt_CertificadoInforme_OIT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AgregarCliente_Click(object sender, EventArgs e)
+        {
+            oOrden_InternaDAL.AgregarOIClente(RecolectarDatos());
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarCliente().Tables[0];
+
+        }
+
+        private void AgregarInfo_Click(object sender, EventArgs e)
+        {
+            oOrden_InternaDAL.AgregarOrden_Interna(RecolectarDatos());
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarOrden().Tables[0];
+        }
+
+        private void VerOrden_Click(object sender, EventArgs e)
+        {
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarOrden().Tables[0];
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarCliente().Tables[0];
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarEquipo().Tables[0];
+        }
+
+        private void AFoto_Click(object sender, EventArgs e)
+        {
+            oOrden_InternaDAL.AgregarFoto(RecolectarDatos());
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarFoto().Tables[0];
+
+        }
+
+        private void pic_Foto_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MCliente_Click(object sender, EventArgs e)
+        {
+            oOrden_InternaDAL.ModificarCliente(RecolectarDatos());
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarCliente().Tables[0];
+        }
+
+        private void BorrarCliente_Click(object sender, EventArgs e)
+        {
+            oOrden_InternaDAL.EliminarCliente(RecolectarDatos());
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarCliente().Tables[0];
+         
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            oOrden_InternaDAL.EliminarOrden(RecolectarDatos());
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarOrden().Tables[0];
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            oOrden_InternaDAL.ModificarOrden(RecolectarDatos());
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarOrden().Tables[0];
+
         }
     }
 }

@@ -61,24 +61,6 @@
     <Compile Include="PL\Orden Interna\Orden_Interna_Admin.Designer.cs">
       <DependentUpon>Orden_Interna_Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="PL\Orden Interna\Orden_Interna_Admin_Tabla.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PL\Orden Interna\Orden_Interna_Admin_Tabla.Designer.cs">
-      <DependentUpon>Orden_Interna_Admin_Tabla.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PL\Orden Interna\Orden_Interna_Anadir_Tabla.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PL\Orden Interna\Orden_Interna_Anadir_Tabla.Designer.cs">
-      <DependentUpon>Orden_Interna_Anadir_Tabla.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PL\Orden Interna\Orden_Interna_Anadir.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PL\Orden Interna\Orden_Interna_Anadir.Designer.cs">
-      <DependentUpon>Orden_Interna_Anadir.cs</DependentUpon>
-    </Compile>
     <Compile Include="PL\Orden Interna\Orden_Interna_Ver.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,15 +113,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Admin.resx">
       <DependentUpon>Orden_Interna_Admin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Admin_Tabla.resx">
-      <DependentUpon>Orden_Interna_Admin_Tabla.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Anadir_Tabla.resx">
-      <DependentUpon>Orden_Interna_Anadir_Tabla.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Anadir.resx">
-      <DependentUpon>Orden_Interna_Anadir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Ver.resx">
       <DependentUpon>Orden_Interna_Ver.cs</DependentUpon>

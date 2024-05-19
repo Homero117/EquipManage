@@ -10,7 +10,7 @@ namespace EquipManage.DAL
 {
     internal class ConexionDAL
     {
-        private string CadenaConexion = "Data Source=HOMERO_JPC;Initial Catalog=PROYECTO;Integrated Security=True"; 
+        private string CadenaConexion = "Data Source=HOMERO_JPC;Initial Catalog=PROYECTO_INTEGRADOR_5;Integrated Security=True"; 
         SqlConnection connection;
 
         public SqlConnection EstablecerConexion()
