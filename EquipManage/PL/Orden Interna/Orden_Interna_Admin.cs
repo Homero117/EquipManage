@@ -16,7 +16,7 @@ namespace EquipManage.PL.Orden_Interna
     public partial class Orden_Interna_Admin : Form
     {
         Orden_InternaDAL oOrden_InternaDAL;
-        byte[] imagenByte;
+        byte[]  imagenByte;
 
         public Orden_Interna_Admin()
         {
@@ -181,20 +181,20 @@ namespace EquipManage.PL.Orden_Interna
         }
 
         private void Seleccionar(object sender, DataGridViewCellMouseEventArgs e)
-        {
+        {              /*
             int indice = e.RowIndex;
             dgv_OI_Admin.ClearSelection();
 
 
             if (indice >= 0)
             {
-                /*
+                
                 txt_IDE.Text = dgv_Empleado.Rows[indice].Cells[0].Value.ToString();
                 txt_NombreE.Text = dgv_Empleado.Rows[indice].Cells[1].Value.ToString();
                 txt__PApellido.Text = dgv_Empleado.Rows[indice].Cells[2].Value.ToString();
                 txt__SApellido.Text = dgv_Empleado.Rows[indice].Cells[3].Value.ToString();
                 txt_Correo.Text = dgv_Empleado.Rows[indice].Cells[4].Value.ToString();
-                */
+
                 txt_NoDeOI.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
                 txt_NoDeRegistroAsignado.Text = dgv_OI_Admin.Rows[indice].Cells[1].Value.ToString();
                 txt_FechaDeElaboracióndeOI.Text = dgv_OI_Admin.Rows[indice].Cells[2].Value.ToString();
@@ -228,7 +228,7 @@ namespace EquipManage.PL.Orden_Interna
                 txt_NoCotas_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
                 txt_NoPiezas_OIT.Text = dgv_OI_Admin.Rows[indice].Cells[0].Value.ToString();
 
-              /*  object imagenCelda = dgv_OI_Admin.Rows[indice].Cells[5].Value;
+  object imagenCelda = dgv_OI_Admin.Rows[indice].Cells[5].Value;
                 if (imagenCelda != null && imagenCelda != DBNull.Value)
                 {
                     byte[] imageData = (byte[])imagenCelda;
@@ -241,9 +241,10 @@ namespace EquipManage.PL.Orden_Interna
                 {
                     pic_Foto.Image = null;
                 }
-              */
+              
 
             }
+            */
         }
 
         private void btn_Agregar_OI_Admin_Click(object sender, EventArgs e)
@@ -341,6 +342,34 @@ namespace EquipManage.PL.Orden_Interna
         {
             oOrden_InternaDAL.ModificarOrden(RecolectarDatos());
             dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarOrden().Tables[0];
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Orden_Interna_Ver orden_Interna_Ver = new Orden_Interna_Ver();  
+            orden_Interna_Ver.Show();
+            this.Close();
+            
+        }
+
+        private void reporte_Click(object sender, EventArgs e)
+        {
+            FormReportw formReportw = new FormReportw(); 
+
+            formReportw.Show();
+            
+        }
+
+        private void EliminarFoto_Click(object sender, EventArgs e)
+        {
+            oOrden_InternaDAL.EliminarFoto(RecolectarDatos());
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarFoto().Tables[0];
+        }
+
+        private void DFoto_Click(object sender, EventArgs e)
+        {
+            dgv_OI_Admin.DataSource = oOrden_InternaDAL.MostrarFoto().Tables[0];
 
         }
     }

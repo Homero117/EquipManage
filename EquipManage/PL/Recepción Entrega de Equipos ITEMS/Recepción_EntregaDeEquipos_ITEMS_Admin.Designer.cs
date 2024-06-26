@@ -114,6 +114,7 @@
             this.dgv_R.RowTemplate.Height = 24;
             this.dgv_R.Size = new System.Drawing.Size(1415, 528);
             this.dgv_R.TabIndex = 159;
+            this.dgv_R.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_R_CellContentClick);
             this.dgv_R.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Seleccionar);
             // 
             // btnModificar

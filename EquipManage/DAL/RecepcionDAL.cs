@@ -46,6 +46,13 @@ namespace EquipManage.DAL
             return conexionDAL.EjecutarSentencia(sentencia);
         }
 
+        public DataSet MostrarEquipo()
+        {
+            SqlCommand sentencia = new SqlCommand("SELECT * FROM Equipo;");
+            return conexionDAL.EjecutarSentencia(sentencia);
+        }
+
     }
+
 
 }

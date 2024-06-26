@@ -18,14 +18,14 @@ namespace EquipManage.PL.Orden_Interna
         public Orden_Interna_Ver()
         {
             oOrden_InternaDAL = new Orden_InternaDAL();
-
+            LLenarGridIOT(); 
             InitializeComponent();
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            Principal_Ver principal_Ver = new Principal_Ver();
-            principal_Ver.Show();
+            Orden_Interna_Admin orden_Interna_Admin = new Orden_Interna_Admin();
+            orden_Interna_Admin.Show();
             this.Close();
         }
 
@@ -40,7 +40,17 @@ namespace EquipManage.PL.Orden_Interna
         }
         public void LLenarGridIOT()
         {
-            dgv_OI_Ver.DataSource = oOrden_InternaDAL.MostrarOI_Todo().Tables[0];
+            dgv_OI_Ver.DataSource = oOrden_InternaDAL.Mostrarodo().Tables[0];
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dgv_OI_Ver.DataSource = oOrden_InternaDAL.Mostrarodo().Tables[0];
         }
     }
 }

@@ -102,10 +102,13 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.AgregarInfo = new System.Windows.Forms.Button();
-            this.VerOrden = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.DOrden = new System.Windows.Forms.Button();
+            this.DCliente = new System.Windows.Forms.Button();
+            this.DEquipo = new System.Windows.Forms.Button();
             this.AFoto = new System.Windows.Forms.Button();
+            this.reporte = new System.Windows.Forms.Button();
+            this.EliminarFoto = new System.Windows.Forms.Button();
+            this.DFoto = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_OI_Admin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Foto)).BeginInit();
             this.SuspendLayout();
@@ -388,7 +391,8 @@
             // 
             this.pic_Foto.Location = new System.Drawing.Point(607, 312);
             this.pic_Foto.Name = "pic_Foto";
-            this.pic_Foto.Size = new System.Drawing.Size(484, 276);
+            this.pic_Foto.Size = new System.Drawing.Size(580, 276);
+            this.pic_Foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_Foto.TabIndex = 82;
             this.pic_Foto.TabStop = false;
             this.pic_Foto.Click += new System.EventHandler(this.pic_Foto_Click);
@@ -396,10 +400,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Franklin Gothic Medium", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Arial Black", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(892, 30);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(343, 66);
+            this.label3.Size = new System.Drawing.Size(436, 74);
             this.label3.TabIndex = 85;
             this.label3.Text = "Orden Interna";
             // 
@@ -786,11 +790,11 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button4.Location = new System.Drawing.Point(398, 572);
+            this.button4.Location = new System.Drawing.Point(426, 580);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(123, 52);
+            this.button4.Size = new System.Drawing.Size(159, 52);
             this.button4.TabIndex = 130;
-            this.button4.Text = "Borrar";
+            this.button4.Text = "Borrar Orden";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -800,11 +804,11 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button5.Location = new System.Drawing.Point(244, 572);
+            this.button5.Location = new System.Drawing.Point(229, 580);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(123, 52);
+            this.button5.Size = new System.Drawing.Size(191, 52);
             this.button5.TabIndex = 129;
-            this.button5.Text = "Modificar";
+            this.button5.Text = "Modificar Orden";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -814,68 +818,106 @@
             this.AgregarInfo.FlatAppearance.BorderSize = 0;
             this.AgregarInfo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.AgregarInfo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.AgregarInfo.Location = new System.Drawing.Point(81, 572);
+            this.AgregarInfo.Location = new System.Drawing.Point(12, 580);
             this.AgregarInfo.Name = "AgregarInfo";
-            this.AgregarInfo.Size = new System.Drawing.Size(123, 52);
+            this.AgregarInfo.Size = new System.Drawing.Size(211, 52);
             this.AgregarInfo.TabIndex = 128;
-            this.AgregarInfo.Text = "Agregar";
+            this.AgregarInfo.Text = "Agregar Orden";
             this.AgregarInfo.UseVisualStyleBackColor = false;
             this.AgregarInfo.Click += new System.EventHandler(this.AgregarInfo_Click);
             // 
-            // VerOrden
+            // DOrden
             // 
-            this.VerOrden.BackColor = System.Drawing.Color.Lavender;
-            this.VerOrden.FlatAppearance.BorderSize = 0;
-            this.VerOrden.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.VerOrden.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.VerOrden.Location = new System.Drawing.Point(42, 985);
-            this.VerOrden.Name = "VerOrden";
-            this.VerOrden.Size = new System.Drawing.Size(203, 52);
-            this.VerOrden.TabIndex = 131;
-            this.VerOrden.Text = "Datos Orden";
-            this.VerOrden.UseVisualStyleBackColor = false;
-            this.VerOrden.Click += new System.EventHandler(this.VerOrden_Click);
+            this.DOrden.BackColor = System.Drawing.Color.Lavender;
+            this.DOrden.FlatAppearance.BorderSize = 0;
+            this.DOrden.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.DOrden.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.DOrden.Location = new System.Drawing.Point(42, 985);
+            this.DOrden.Name = "DOrden";
+            this.DOrden.Size = new System.Drawing.Size(203, 52);
+            this.DOrden.TabIndex = 131;
+            this.DOrden.Text = "Datos Orden";
+            this.DOrden.UseVisualStyleBackColor = false;
+            this.DOrden.Click += new System.EventHandler(this.VerOrden_Click);
             // 
-            // button2
+            // DCliente
             // 
-            this.button2.BackColor = System.Drawing.Color.Lavender;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button2.Location = new System.Drawing.Point(251, 985);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(203, 52);
-            this.button2.TabIndex = 132;
-            this.button2.Text = "Datos Cliente";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.DCliente.BackColor = System.Drawing.Color.Lavender;
+            this.DCliente.FlatAppearance.BorderSize = 0;
+            this.DCliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.DCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.DCliente.Location = new System.Drawing.Point(251, 985);
+            this.DCliente.Name = "DCliente";
+            this.DCliente.Size = new System.Drawing.Size(203, 52);
+            this.DCliente.TabIndex = 132;
+            this.DCliente.Text = "Datos Cliente";
+            this.DCliente.UseVisualStyleBackColor = false;
+            this.DCliente.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // DEquipo
             // 
-            this.button3.BackColor = System.Drawing.Color.Lavender;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button3.Location = new System.Drawing.Point(460, 985);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(203, 52);
-            this.button3.TabIndex = 133;
-            this.button3.Text = "Datos Equipo";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.DEquipo.BackColor = System.Drawing.Color.Lavender;
+            this.DEquipo.FlatAppearance.BorderSize = 0;
+            this.DEquipo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.DEquipo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.DEquipo.Location = new System.Drawing.Point(460, 985);
+            this.DEquipo.Name = "DEquipo";
+            this.DEquipo.Size = new System.Drawing.Size(203, 52);
+            this.DEquipo.TabIndex = 133;
+            this.DEquipo.Text = "Datos Equipo";
+            this.DEquipo.UseVisualStyleBackColor = false;
+            this.DEquipo.Click += new System.EventHandler(this.button3_Click);
             // 
             // AFoto
             // 
             this.AFoto.BackColor = System.Drawing.Color.Lavender;
             this.AFoto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.AFoto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.AFoto.Location = new System.Drawing.Point(903, 594);
+            this.AFoto.Location = new System.Drawing.Point(995, 594);
             this.AFoto.Name = "AFoto";
             this.AFoto.Size = new System.Drawing.Size(188, 44);
             this.AFoto.TabIndex = 134;
             this.AFoto.Text = "Agregar Imagen";
             this.AFoto.UseVisualStyleBackColor = false;
             this.AFoto.Click += new System.EventHandler(this.AFoto_Click);
+            // 
+            // reporte
+            // 
+            this.reporte.BackColor = System.Drawing.Color.Lavender;
+            this.reporte.Location = new System.Drawing.Point(2120, 79);
+            this.reporte.Name = "reporte";
+            this.reporte.Size = new System.Drawing.Size(196, 43);
+            this.reporte.TabIndex = 135;
+            this.reporte.Text = "Ver Reporte";
+            this.reporte.UseVisualStyleBackColor = false;
+            this.reporte.Click += new System.EventHandler(this.reporte_Click);
+            // 
+            // EliminarFoto
+            // 
+            this.EliminarFoto.BackColor = System.Drawing.Color.Lavender;
+            this.EliminarFoto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.EliminarFoto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.EliminarFoto.Location = new System.Drawing.Point(801, 594);
+            this.EliminarFoto.Name = "EliminarFoto";
+            this.EliminarFoto.Size = new System.Drawing.Size(188, 44);
+            this.EliminarFoto.TabIndex = 136;
+            this.EliminarFoto.Text = "Eliminar Imagen";
+            this.EliminarFoto.UseVisualStyleBackColor = false;
+            this.EliminarFoto.Click += new System.EventHandler(this.EliminarFoto_Click);
+            // 
+            // DFoto
+            // 
+            this.DFoto.BackColor = System.Drawing.Color.Lavender;
+            this.DFoto.FlatAppearance.BorderSize = 0;
+            this.DFoto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.DFoto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.DFoto.Location = new System.Drawing.Point(669, 985);
+            this.DFoto.Name = "DFoto";
+            this.DFoto.Size = new System.Drawing.Size(203, 52);
+            this.DFoto.TabIndex = 137;
+            this.DFoto.Text = "Datos Imagen";
+            this.DFoto.UseVisualStyleBackColor = false;
+            this.DFoto.Click += new System.EventHandler(this.DFoto_Click);
             // 
             // Orden_Interna_Admin
             // 
@@ -884,10 +926,13 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(2409, 1559);
+            this.Controls.Add(this.DFoto);
+            this.Controls.Add(this.EliminarFoto);
+            this.Controls.Add(this.reporte);
             this.Controls.Add(this.AFoto);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.VerOrden);
+            this.Controls.Add(this.DEquipo);
+            this.Controls.Add(this.DCliente);
+            this.Controls.Add(this.DOrden);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.AgregarInfo);
@@ -1049,9 +1094,12 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button AgregarInfo;
-        private System.Windows.Forms.Button VerOrden;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button DOrden;
+        private System.Windows.Forms.Button DCliente;
+        private System.Windows.Forms.Button DEquipo;
         private System.Windows.Forms.Button AFoto;
+        private System.Windows.Forms.Button reporte;
+        private System.Windows.Forms.Button EliminarFoto;
+        private System.Windows.Forms.Button DFoto;
     }
 }

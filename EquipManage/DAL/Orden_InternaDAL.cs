@@ -31,9 +31,25 @@ namespace EquipManage.DAL
             // " insert into Detalle_Orden (Id_Detalle, Id_Equipo, Id_Cliente, Id_OrdenInterna, Fecha_Recepcion) values (" + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.NoIO + ", '" + oOrden_InternaBLL.Fecha_Recepcion + "');");
         }
         public bool AgregarFoto(Orden_InternaBLL oOrden_InternaBLL) {
-            return conexionDAL.EjecutarComandoSinRetornoDatos(" insert into Fotos (Id_Foto, Foto) values (" + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.fotoEquipo + "); "  );        
-        
+
+            SqlCommand sqlCommand = new SqlCommand("INSERT INTO Fotos ( Id_Foto, Foto) VALUES(@ID, @Foto)");
+            sqlCommand.Parameters.Add("@Foto", SqlDbType.Image).Value = oOrden_InternaBLL.fotoEquipo;
+            sqlCommand.Parameters.Add("@ID", SqlDbType.Int).Value = oOrden_InternaBLL.NoIO;
+
+            return conexionDAL.EjecutarComandoSinRetornoDatos(sqlCommand);
+
+
+            //return conexionDAL.EjecutarComandoSinRetornoDatos(" insert into Fotos (Id_Foto, Foto) values (" + oOrden_InternaBLL.NoIO + ", " + oOrden_InternaBLL.fotoEquipo + "); "  );        
+
         }
+        public bool EliminarFoto(Orden_InternaBLL oOrden_InternaBLL)
+        {
+            SqlCommand sqlCommand = new SqlCommand("DELETE FROM Fotos WHERE Id_Foto=@ID");
+            sqlCommand.Parameters.Add("@ID", SqlDbType.Int).Value = oOrden_InternaBLL.NoIO;
+            return conexionDAL.EjecutarComandoSinRetornoDatos(sqlCommand);
+
+        }
+
 
         public bool AgregarEquipo(Orden_InternaBLL oOrden_InternaBLL)
         {
@@ -118,10 +134,11 @@ namespace EquipManage.DAL
 
 
 
-        public DataSet MostrarOI_Todo()
+        public DataSet Mostrarodo()
         {
-            SqlCommand sentencia = new SqlCommand("SELECT * FROM ???");
+            SqlCommand sentencia = new SqlCommand("SELECT * FROM View_ClienteEquipoOrden2;");
             return conexionDAL.EjecutarSentencia(sentencia);
         }
+
     }
 }

@@ -37,8 +37,27 @@
     </StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,6 +74,12 @@
     <Compile Include="DAL\ConexionDAL.cs" />
     <Compile Include="DAL\Orden_InternaDAL.cs" />
     <Compile Include="DAL\RecepcionDAL.cs" />
+    <Compile Include="PL\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Orden Interna\Orden_Interna_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +128,21 @@
     <Compile Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.Designer.cs">
       <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Anadir.cs</DependentUpon>
     </Compile>
+    <Compile Include="PROYECTO_INTEGRADOR_5DataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PROYECTO_INTEGRADOR_5DataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PROYECTO_INTEGRADOR_5DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PROYECTO_INTEGRADOR_5DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PROYECTO_INTEGRADOR_5DataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PROYECTO_INTEGRADOR_5DataSet21.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Seguridad\login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +151,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="PL\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\Orden Interna\Orden_Interna_Admin.resx">
       <DependentUpon>Orden_Interna_Admin.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +179,7 @@
     <EmbeddedResource Include="PL\Recepción Entrega de Equipos ITEMS\Recepción_EntregaDeEquipos_ITEMS_Anadir.resx">
       <DependentUpon>Recepción_EntregaDeEquipos_ITEMS_Anadir.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report2.rdlc" />
     <EmbeddedResource Include="Seguridad\login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +193,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -161,8 +207,55 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PROYECTO_INTEGRADOR_5DataSet12.xsc">
+      <DependentUpon>PROYECTO_INTEGRADOR_5DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="PROYECTO_INTEGRADOR_5DataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PROYECTO_INTEGRADOR_5DataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PROYECTO_INTEGRADOR_5DataSet12.xss">
+      <DependentUpon>PROYECTO_INTEGRADOR_5DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="PROYECTO_INTEGRADOR_5DataSet2.xsc">
+      <DependentUpon>PROYECTO_INTEGRADOR_5DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PROYECTO_INTEGRADOR_5DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PROYECTO_INTEGRADOR_5DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PROYECTO_INTEGRADOR_5DataSet2.xss">
+      <DependentUpon>PROYECTO_INTEGRADOR_5DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PROYECTO_INTEGRADOR_5DataSet21.xsc">
+      <DependentUpon>PROYECTO_INTEGRADOR_5DataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="PROYECTO_INTEGRADOR_5DataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PROYECTO_INTEGRADOR_5DataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PROYECTO_INTEGRADOR_5DataSet21.xss">
+      <DependentUpon>PROYECTO_INTEGRADOR_5DataSet21.xsd</DependentUpon>
+    </None>
     <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

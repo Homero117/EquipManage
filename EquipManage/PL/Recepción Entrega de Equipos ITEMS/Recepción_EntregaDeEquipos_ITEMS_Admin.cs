@@ -66,7 +66,7 @@ namespace EquipManage.PL.Recepción_Entrega_de_Equipos_ITEMS
 
         public void LLenarGridR()
         {
-            dgv_R.DataSource = oRecepcionDAL.MostrarR().Tables[0];
+            dgv_R.DataSource = oRecepcionDAL.MostrarEquipo().Tables[0];
 
         }
 
@@ -174,6 +174,11 @@ namespace EquipManage.PL.Recepción_Entrega_de_Equipos_ITEMS
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             LimpiarTxtT();
+        }
+
+        private void dgv_R_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
