@@ -16,7 +16,6 @@ C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\bin\Debug
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\bin\Debug\EquipManage.exe
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\bin\Debug\EquipManage.pdb
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.csproj.AssemblyReference.cache
-C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.Elementos.Principal.resources
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.Elementos.Recepción_Entrega_de_Equipos_ITEMS.Recepción_EntregaDeEquipos_ITEMS_Anadir.resources
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.login.resources
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.Properties.Resources.resources
@@ -25,10 +24,8 @@ C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.exe
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.pdb
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.PL.Orden_Interna.Orden_Interna_Admin.resources
-C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.PL.Orden_Interna.Orden_Interna_Ver.resources
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.PL.Recepción_Entrega_de_Equipos_ITEMS.Recepcion_Ver.resources
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.PL.Principal_Admin.resources
-C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.PL.Principal_Ver.resources
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\obj\Debug\EquipManage.PL.Recepción_Entrega_de_Equipos_ITEMS.Recepción_EntregaDeEquipos_ITEMS_Admin.resources
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\bin\Debug\SqlServerTypes\x64\msvcr120.dll
 C:\Users\porti\Desktop\Proyectos Visual Studio\EquipManage\EquipManage\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
